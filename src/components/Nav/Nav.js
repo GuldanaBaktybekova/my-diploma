@@ -12,9 +12,9 @@ function Nav() {
       <div className="container">
         <ul>
           <NavItem url="/">Home</NavItem>
-          <NavItem url="/men">Men</NavItem>
-          <NavItem url="/women">Women</NavItem>
-          <NavItem url="/sport">Sport</NavItem>
+          <NavItem url="/products">Products</NavItem>
+          <NavItem url="/contacts">Contacts</NavItem>
+        
         </ul>
       </div>
      

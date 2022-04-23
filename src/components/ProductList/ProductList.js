@@ -1,9 +1,9 @@
 import ProductItem from "./ProductItem/ProductItem";
 import classes from "./ProductList.module.css";
 
-function ProductList({ men }) {
-  const productItems = men.map(man => (
-    <ProductItem key={man.manId} man={man} />
+function ProductList({ products }) {
+  const productItems = products.map(product => (
+    <ProductItem key={product.productId} product={product} />
   ));
 
   return (

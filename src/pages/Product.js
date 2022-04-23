@@ -1,21 +1,21 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
-import { getProduct } from "../data/men";
+import { getProduct } from "../data/products";
 
 function Product() {
   const params = useParams();
-  const man = getProduct(params.productId);
+  const product = getProduct(params.productId);
 
-  if (!man) {
+  if (!product) {
     return null;
   }
 
   return (
     <>
       <Header
-        title={man.title}
-        image={man.image}>
-        {man.description}
+        title={product.title}
+        image={product.image}>
+        {product.description}
       </Header>
     </>
   );

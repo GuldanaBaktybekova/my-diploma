@@ -1,10 +1,11 @@
 import Home from "./pages/Home";
-import Women from "./pages/Men";
+
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-import Man from "./pages/Man";
+import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
-import Men from "./pages/Women";
+import Products from "./pages/Products";
+
 
 function App() {
   return (
@@ -12,9 +13,8 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/men" element={<Men />} />
-          <Route path="/men/:manId" element={<Man />} />
-          <Route path="/women" element={<Women />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/products/:productId" element={<Product />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

@@ -1,7 +1,7 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/header2.jpg";
+import headerImage from "../assets/contacts.jpeg";
 
-function Men() {
+function Contacts() {
   return (
     <>
       <Header
@@ -13,4 +13,4 @@ function Men() {
   );
 }
 
-export default Men;
+export default Contacts;
