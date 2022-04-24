@@ -1,4 +1,4 @@
-// import productImage from "../assets/home.jpg";
+
 import stripeImage from "../assets/striped-t-shirt.jpg";
 import stripecardiganImage from "../assets/stripe-cardigan.jpg";
 import slevdressImage from "../assets/slev-dress.jpg";
