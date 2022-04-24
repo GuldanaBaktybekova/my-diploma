@@ -1,8 +1,15 @@
-import productImage from "../assets/home.jpg";
+// import productImage from "../assets/home.jpg";
 import stripeImage from "../assets/striped-t-shirt.jpg";
 import stripecardiganImage from "../assets/stripe-cardigan.jpg";
 import slevdressImage from "../assets/slev-dress.jpg";
 import quarterzipImage from "../assets/quarter-zip.jpg";
+
+import slimImage from "../assets/slim.jpg";
+import oxfordImage from "../assets/oxford-tshirt.jpg";
+import signImage from "../assets/slim-sign.jpg";
+import vneckImage from "../assets/v-neck.jpg";
+
+
 
 
 const products = [
@@ -29,18 +36,45 @@ const products = [
   },
   {
     image: quarterzipImage,
-    productId: "light-roast",
+    productId: "quarter-zip",
     title: "Quarter-Zip dress",
     description: `Tommy Hilfiger women's dress. Constructed from a lightweight stretch cotton, our quarter-zip colorblock polo dress is all about sporty style.`,
     price: 63,
   },
-  // {
-  //   image: productImage,
-  //   productId: "medium-roast",
-  //   title: "Medium roast",
-  //   description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
-  //   price: 11,
-  // },
+  {
+    image: slimImage,
+    productId: "slim-fit",
+    title: "Slim Fit",
+    description: `Tommy Hilfiger men's polo. What we do best, the classic polo in stretch cotton. A best-seller year after year.
+    `,
+    price: 69,
+  },
+  {
+    image: oxfordImage,
+    productId: "oxford",
+    title: "Oxford Shirt",
+    description: `Tommy Hilfiger men's shirt. For work and weekends, our shirts are made from soft, stretch cotton, and cut in an easy fit.
+    `,
+    price: 41,
+  },
+  {
+    image: signImage,
+    productId: "slim-sign",
+    title: "Slim Signature",
+    description: `Tommy Hilfiger men's polo. What we do best, the classic polo in stretch cotton, cut in our best-selling fit.
+    `,
+    price: 64,
+  },
+  {
+    image: vneckImage,
+    productId: "v-neck",
+    title: "V-Neck T-shirt",
+    description: `
+    Tommy Hilfiger men's T-shirt. Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
+    `,
+    price: 29,
+  },
+
 ];
 
 export function getProducts() {
