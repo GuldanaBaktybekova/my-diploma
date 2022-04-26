@@ -1,0 +1,32 @@
+.Nav {
+  background-color:  #302e31 ;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+.Nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+  /* flex-wrap: nowrap;
+  padding-bottom: 0.2rem;
+  margin-top: -1px;
+  
+  text-align: center;
+  height: 2.75rem; */
+ 
+  
+}
+.Nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+@media (max-width: 600px) {
+  .Nav ul {
+    display: none;
+  }
+} 

@@ -1,11 +1,12 @@
 .Header {
   position: relative;
   margin-bottom: 5rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .Header img {
-  width: 100%;
-  height: 300px;
+  width: 880px;
+  height: 350px;
   
 
  
@@ -19,6 +20,29 @@
 
 
 }
+
+.Products img {
+  width: 50%;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+
+}
+.Products section {
+  
+  width: 42%;
+  position: absolute;
+  right: 0;
+  top: 1px;
+  height: 284px;
+  background-color: rgb(237, 232, 232);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+ 
+}
+
+ 
+
+
 .Header section {
   /* position: absolute;
   bottom: -3rem;
@@ -26,8 +50,7 @@
   max-width: 500px;
   margin-left: 2rem; */
 
-  background-color: white;
-  color: #807b58;
+  color: black;
   padding: 2rem;
 
   font-size: 1.2rem;

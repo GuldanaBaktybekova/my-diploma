@@ -1,80 +1,80 @@
+import bag3Image from "../assets/bag3.jpeg";
+import bag4Image from "../assets/bag4.jpeg";
+import bag5Image from "../assets/bag5.jpeg";
+import bag6Image from "../assets/bag6.jpeg";
 
-import stripeImage from "../assets/striped-t-shirt.jpg";
-import stripecardiganImage from "../assets/stripe-cardigan.jpg";
-import slevdressImage from "../assets/slev-dress.jpg";
-import quarterzipImage from "../assets/quarter-zip.jpg";
-
-import slimImage from "../assets/slim.jpg";
-import oxfordImage from "../assets/oxford-tshirt.jpg";
-import signImage from "../assets/slim-sign.jpg";
-import vneckImage from "../assets/v-neck.jpg";
-
-
-
+import bag7Image from "../assets/bag7.jpeg";
+import bag8Image from "../assets/bag8.jpeg";
+import bag9Image from "../assets/bag9.jpeg";
+import bag10Image from "../assets/bag10.jpeg";
 
 const products = [
   {
-    image: stripeImage,
-    productId: "stripe-top",
-    title: "Stripe top",
-    description: `Tommy Hilfiger women's shirt. Made of lightweight viscose terry, our striped shirt is just what the warm weather ordered.`,
-    price: 48,
-  },
-  {
-    image: stripecardiganImage,
-    productId: "stripe-cardigan",
-    title: "Stripe  cardigan",
-    description: `Tommy Hilfiger women's sweater. Our stripe cardigan strikes the balance between polo looks and a knit sweater feel.`,
+    image: bag3Image,
+    productId: "m-kors",
+    title: "Michael Kors",
+    description: `one slip pocket on the front
+    closes with zipper
+    two handles (handle drop 23 cm)
+    removable and adjustable shoulder strap (Length ca. 60-100 cm)
+    polished gold-coloured metal fittings`,
     price: 55,
   },
   {
-    image: slevdressImage,
-    productId: "slev-dress",
-    title: "Sleeveless  dress",
-    description: `Tommy Hilfiger women's dress. Our patchwork print dress featured in an A-line skirt, sleeveless silhouette, and tie-belt for added definition.`,
-    price: 83,
+    image: bag4Image,
+    productId: "fossil",
+    title: "Fossil",
+    description: `. Made of lightweight viscose terry, our striped shirt is just what the warm weather ordered.`,
+    price: 190,
+  },
+ 
+  {
+    image: bag5Image,
+    productId: "vivi",
+    title: "Vivienne Westwood",
+    description: ` Our patchwork print dress featured in an A-line skirt, sleeveless silhouette, and tie-belt for added definition.`,
+    price: 98,
   },
   {
-    image: quarterzipImage,
-    productId: "quarter-zip",
-    title: "Quarter-Zip dress",
+    image: bag6Image,
+    productId: "coccinelle",
+    title: "Coccinelle",
     description: `Tommy Hilfiger women's dress. Constructed from a lightweight stretch cotton, our quarter-zip colorblock polo dress is all about sporty style.`,
-    price: 63,
+    price: 73,
   },
   {
-    image: slimImage,
-    productId: "slim-fit",
-    title: "Slim Fit",
-    description: `Tommy Hilfiger men's polo. What we do best, the classic polo in stretch cotton. A best-seller year after year.
+    image: bag7Image,
+    productId: "tommy",
+    title: "Tommy Hilfiger",
+    description: `Tommy Hilfiger . What we do best, the classic polo in stretch cotton. A best-seller year after year.
     `,
-    price: 69,
+    price: 88,
   },
   {
-    image: oxfordImage,
-    productId: "oxford",
-    title: "Oxford Shirt",
-    description: `Tommy Hilfiger men's shirt. For work and weekends, our shirts are made from soft, stretch cotton, and cut in an easy fit.
+    image: bag8Image,
+    productId: "emporio",
+    title: "Emporio Armani",
+    description: ` For work and weekends, our shirts are made from soft, stretch cotton, and cut in an easy fit.
     `,
     price: 41,
   },
   {
-    image: signImage,
-    productId: "slim-sign",
-    title: "Slim Signature",
-    description: `Tommy Hilfiger men's polo. What we do best, the classic polo in stretch cotton, cut in our best-selling fit.
+    image: bag9Image,
+    productId: "moschino",
+    title: "Love Moschino",
+    description: `. What we do best, the classic polo in stretch cotton, cut in our best-selling fit.
     `,
-    price: 64,
+    price: 74,
   },
   {
-    image: vneckImage,
-    productId: "v-neck",
-    title: "V-Neck T-shirt",
+    image: bag10Image,
+    productId: "joop",
+    title: "Joop",
     description: `
-    Tommy Hilfiger men's T-shirt. Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
+     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
     `,
-    price: 29,
+    price: 104,
   },
-
 ];
 
 export function getProducts() {
@@ -84,8 +84,6 @@ export function getProducts() {
 // dark-roast
 export function getProduct(productId) {
   return products[
-    products.findIndex(
-      product =>  product.productId === productId
-    )
+    products.findIndex((product) => product.productId === productId)
   ];
 }

@@ -15,7 +15,7 @@
 }
 .ProductItem a {
   position: absolute;
-  top: 16.7rem;
+  top: 15rem;
   padding-top: 0;
   right: 15px;
   left: 15px;
@@ -27,7 +27,7 @@
   
   
   background-color: white;
-  color: #9E9764;
+  color: black;
   
   font-size: 16px;
   padding: 15px ;
@@ -45,7 +45,7 @@
   
   
   background-color: white;
-  color: #9E9764;
+  color: black;
  
   font-size: 1rem;
   padding: 0.8rem;
@@ -56,3 +56,4 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   margin-top: 13px;
 }
+
