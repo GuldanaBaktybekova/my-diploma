@@ -29,4 +29,7 @@
   .Nav ul {
     display: none;
   }
+  .Nav .container {
+    justify-content: space-around;
+  }
 } 

@@ -11,13 +11,14 @@ function Product() {
   }
 
   return (
-    <>
+    <div className="Product">
       <Header
         title={product.title}
         image={product.image}>
         {product.description}
       </Header>
-    </>
+  
+    </div>
   );
 }
 

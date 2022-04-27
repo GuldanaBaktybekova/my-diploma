@@ -16,6 +16,26 @@
  max-height: 350px;
  height: auto
 }
+.Header section {
+  position: absolute;
+  top: 10px;
+  right: 2rem;
+  max-width: 300px;
+  margin-left: 2rem;
+
+  color: black;
+  padding: 20px;
+
+  font-size: 17px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+/* .Header .section-responsive {
+  display: flex;
+  flex-wrap: wrap;
+} */
+.Header h1 {
+  font-size: 1.8rem;
+}
  
 
 
@@ -28,7 +48,7 @@
 
 
 .Products img {
-  width: 50%;
+
   
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 
@@ -55,23 +75,10 @@
  
  
 }
+.Product img {
+  width: 100px;
+}
 
  
 
 
-.Header section {
-  /* position: absolute;
-  bottom: -3rem;
-  right: 2rem;
-  max-width: 500px;
-  margin-left: 2rem; */
-
-  color: black;
-  padding: 2rem;
-
-  font-size: 1.2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-}
-.Header h1 {
-  font-size: 2rem;
-}
