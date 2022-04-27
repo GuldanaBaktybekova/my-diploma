@@ -1,5 +1,5 @@
 
-import productImage from "../assets/v-bag.jpg";
+import productImage from "../assets/lv4.jpg";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 
