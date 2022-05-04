@@ -1,7 +1,7 @@
 .NavItem a {
   display: block;
   padding: 0.5rem 3rem;
-  color: white;
+  color: black;
   font-size: 18px;
   text-decoration: none;
   border-bottom: 3px solid transparent;
@@ -9,9 +9,9 @@
   
 }
 .NavItem a.active {
-  border-color: white;
+  border-color: #e49936;
 }
 .NavItem a:hover {
-  background-color: rgba(255, 255, 255, .1);
+  color: #e49936;
 
 }

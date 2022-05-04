@@ -1,14 +1,16 @@
 .Nav {
-  background-color:  #302e31 ;
-  color: white;
+  background-color:  rgb(252, 252, 252) ;
+  color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  
 }
+/* #302e31 */
 .Nav .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+  
  
   /* flex-wrap: nowrap;
   padding-bottom: 0.2rem;
@@ -19,6 +21,8 @@
  
   
 }
+
+
 .Nav ul {
   list-style: none;
   padding: 0;

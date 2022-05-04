@@ -2,7 +2,7 @@ import "./Logo.css";
 
 function Logo() {
   return (
-    <div className="Logo"> Bags</div>
+    <div className="Logo"> BAG</div>
   );
 }
 
