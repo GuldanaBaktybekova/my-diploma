@@ -1,5 +1,5 @@
 
-import productImage from "../assets/lv4.jpg";
+import productImage from "../assets/productimage2 1.svg";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 
@@ -14,8 +14,8 @@ function Products() {
 
       </Header>
       </div>
-
       <ProductList products={getProducts()} />
+
     </>
   );
 }
