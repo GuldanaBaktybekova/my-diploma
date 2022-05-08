@@ -1,3 +1,4 @@
+
 .Header {
   position: relative;
   margin-bottom: 5rem;
@@ -19,19 +20,17 @@
 }
 .Header section {
   position: absolute;
-  top: 10px;
+  top: -10px;
   left: 5rem;
 
   color: black;
   padding: 20px;
+  
 
   background-color: transparent;
 
 }
-/* .Header .section-responsive {
-  display: flex;
-  flex-wrap: wrap;
-} */
+
 .Header h1 {
   font-size: 2.5rem;
   margin: 10px;
@@ -75,27 +74,44 @@
   
 
 }
+.Products h1 {
+   font-size: 2.5rem;
+ 
+  
+}
 .Products section {
   
   width: 42%;
   position: absolute;
-  left: 0;
-  top: 1px;
- padding: 20px;
-  background-color: rgba(255, 255, 255, 0.537);
+  left: 5rem;
+  top: -17px;
+  
+ 
+  padding: 10px;
+  color: black;
+  background-color: transparent;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .Product img  {
   max-width: 300px;
   margin: 10px;
 }
-.Product section {
-  
-  max-width: 300px;
 
+
+
+
+.Product h1  {
+
+  max-width: 300px;
+  position: relative;
+  left: 20rem;
 }
 
+.Product p  {
 
- 
+  max-width: 300px;
+  position: relative;
+  left: 20rem;
+}
 
 

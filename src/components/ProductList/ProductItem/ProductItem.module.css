@@ -5,12 +5,13 @@
   
   border-radius: 5px;
   margin: 9px;
+  
 
  }
  .ProductItem img {
 
     border-radius: 5px 5px 0 0;
-    max-width: 200px;
+    max-width: 250px;
     width: 100%;
   
  }
