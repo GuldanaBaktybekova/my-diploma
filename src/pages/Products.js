@@ -1,5 +1,5 @@
 
-import productImage from "../assets/handbag6.jpg";
+import productImage from "../assets/bag000.png";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 
@@ -9,7 +9,7 @@ function Products() {
   return (
     <>
       <div className="Products">
-      <Header title="Choose your essential accessory"  image={productImage} >
+      <Header title1="Choose"span1="your" span="essential"title="accessory" image={productImage} >
       
 
       </Header>

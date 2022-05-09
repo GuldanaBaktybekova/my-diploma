@@ -105,6 +105,15 @@
   max-width: 300px;
   position: relative;
   left: 20rem;
+
+  font-size: 1.75rem;
+  letter-spacing: 0;
+  line-height: 2rem;
+  font-weight: 500;
+  color: inherit;
+  border-bottom: 1px solid #bab7b1 ;
+  border-top: none;
+
 }
 
 .Product p  {
@@ -112,6 +121,26 @@
   max-width: 300px;
   position: relative;
   left: 20rem;
+
+  font-size: 1rem;
+  letter-spacing: .025rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: inherit;
+  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #19110b;
+}
+.Product .price {
+  font-size: 1rem;
+  letter-spacing: .025rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  color: inherit;
+  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  color: #19110b;
+  margin-bottom: 10px;  
+  border-bottom: 1px solid #bab7b1;
+  
 }
 
 

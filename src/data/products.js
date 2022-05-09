@@ -13,7 +13,7 @@ const products = [
     image: bag3Image,
     productId: "m-kors",
     title: "Michael Kors",
-    description: `one slip pocket on the front
+    description: `One slip pocket on the front
     closes with zipper
     two handles (handle drop 23 cm)
     removable and adjustable shoulder strap (Length ca. 60-100 cm)
@@ -24,7 +24,7 @@ const products = [
     image: bag4Image,
     productId: "fossil",
     title: "Fossil",
-    description: `. Made of lightweight viscose terry, our striped shirt is just what the warm weather ordered.`,
+    description: ` Made of lightweight viscose terry, our striped shirt is just what the warm weather ordered.`,
     price: 190,
   },
  
@@ -62,9 +62,10 @@ const products = [
     image: bag9Image,
     productId: "moschino",
     title: "Love Moschino",
-    description: `. What we do best, the classic polo in stretch cotton, cut in our best-selling fit.
+    description: ` What we do best, the classic polo in stretch cotton, cut in our best-selling fit.
     `,
     price: 74,
+    color: "blue",
   },
   {
     image: bag10Image,
