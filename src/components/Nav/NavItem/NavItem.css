@@ -15,3 +15,9 @@
   color: #e49936;
 
 }
+@media (max-width: 620px) {
+  .NavItem a {
+    border-bottom: none;
+    border-right: 5px solid transparent;
+  }
+} 

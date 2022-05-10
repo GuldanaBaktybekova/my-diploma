@@ -1,15 +1,20 @@
 .Nav {
-  background-color:  rgb(252, 252, 252) ;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+  /* background-color:  rgb(252, 252, 252) ;
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  
 }
 /* #302e31 */
-.Nav .container {
+/* .Nav .container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-evenly; */
   
  
   /* flex-wrap: nowrap;
@@ -20,20 +25,23 @@
   height: 2.75rem; */
  
   
-}
 
 
-.Nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
+
+/* .Nav ul {
+
+} */ 
 @media (max-width: 600px) {
   .Nav ul {
     display: none;
   }
   .Nav .container {
     justify-content: space-around;
+  }
+  @media (max-width: 620px) {
+    .Nav {
+      flex-direction: column;
+      margin: 1rem 0;
+    }
   }
 } 

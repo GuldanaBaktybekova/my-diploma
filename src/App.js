@@ -5,6 +5,7 @@ import Layout from "./components/Layout/Layout";
 import Product from "./pages/Product";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
+import Contacts from "./pages/Contacts";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/products/:productId" element={<Product />} />
+          <Route path="/contacts" element={<Contacts />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
