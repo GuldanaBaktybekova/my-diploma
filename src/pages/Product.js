@@ -14,7 +14,7 @@ function Product() {
     <div className="Product">
       <Header image={product.image} title={product.title}>
         <div className="price">${product.price}</div>
-        <div className="color">{product.color}</div>
+        
 
         {product.description}
       </Header>

@@ -7,7 +7,7 @@
 
 .Header img {
   width: 100%;
-  max-width: 100%;
+ 
  
   
 }
@@ -15,7 +15,7 @@
 .Header .responsive  {
   
  width: 100%;
- max-height: 350px;
+ max-height: 450px;
  height: auto
 }
 .Header section {
