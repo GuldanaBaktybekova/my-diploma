@@ -1,5 +1,8 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/handbag4.jpg";
+import headerImage from "../assets/headerbag.jpg";
+import CategoryList from "../components/CategoryList/CategoryList";
+import { getCategories } from "../data/categories";
+
 
 
 
@@ -10,6 +13,7 @@ function Home() {
         Lorem, ipsum dolor sitamet consectetur <br></br> adipisicing elit. Placeat, quasi
         
       </Header>
+      <CategoryList categories={getCategories()}/>
     </>
   );
 }

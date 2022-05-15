@@ -142,5 +142,17 @@
   border-bottom: 1px solid #bab7b1;
   
 }
+.Category img {
+  width: 100%;
+  max-width: 500px;
+  
+}
+.Category p {
+  font-size: 20px;
+  padding: 10px;
+  
+  
+}
+
 
 
