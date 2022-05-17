@@ -7,6 +7,7 @@
 
 .Header img {
   width: 100%;
+
  
  
   
@@ -28,12 +29,15 @@
   
 
   background-color: transparent;
+ 
 
 }
 
 .Header h1 {
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   margin: 10px;
+  color: black;
+  font-weight: bold;
   
   
 }
@@ -41,14 +45,23 @@
   color: #e49936;
 }
 .Header h3 {
-  font-size: 15px;
+  font-size: 16px;
   padding: 14px;
 }
 .Header p {
   padding: 15px;
+  
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-
+@media (max-width: 600px) {
+  .Header h1,p {
+    font-size: 30px;
+   
+  }
+}
 
 
 
@@ -62,6 +75,7 @@
 
 .Products img {
   width: 100%;
+ 
   
  
 } 
@@ -76,6 +90,7 @@
 }
 .Products h1 {
    font-size: 2.5rem;
+   color: white;
  
   
 }
@@ -142,16 +157,27 @@
   border-bottom: 1px solid #bab7b1;
   
 }
+
 .Category img {
   width: 100%;
   max-width: 500px;
-  
+
 }
 .Category p {
-  font-size: 20px;
+  font-size: 18px;
   padding: 10px;
+
   
   
+}
+.Category section {
+  max-width: 50%;
+
+
+
+}
+.Category h1 {
+  color: #e49936;
 }
 
 

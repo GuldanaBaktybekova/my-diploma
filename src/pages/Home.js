@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/headerbag.jpg";
+import headerImage from "../assets/dior.webp";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
 

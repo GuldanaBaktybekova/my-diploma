@@ -1,8 +1,9 @@
 .Toolbar {
-  background-color:  rgb(252, 252, 252) ;
+  background-color:  #fefefe;
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
 }
 .Toolbar .container {
   display: flex;

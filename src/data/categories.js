@@ -1,6 +1,6 @@
-import backpackImage from "../assets/backpack.webp";
-import handbagImage from "../assets/handbag.webp";
-import suitcaseImage from "../assets/suitcase.webp";
+import backpackImage from "../assets/dior.backpack.jpeg";
+import handbagImage from "../assets/dior.handbags.jpeg";
+import suitcaseImage from "../assets/dior.suit.webp";
 
 const categories = [
   {
