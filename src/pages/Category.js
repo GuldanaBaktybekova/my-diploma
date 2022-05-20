@@ -13,7 +13,7 @@ function Category() {
   
   return (
     <div className="Category">
-      <Header  title={category.title} image={category.image}>
+      <Header  title={category.title2} image={category.headerImage}>
         {category.description}
        
       </Header>

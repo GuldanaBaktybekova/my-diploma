@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/dior.webp";
+import headerImage from "../assets/wallovens2.webp";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
 
@@ -9,7 +9,7 @@ import { getCategories } from "../data/categories";
 function Home() {
   return (
     <>
-      <Header h3="Fashion bag" title1="Look" span1="Stylish" span="Be" title=" Stylish"  image={headerImage} >
+      <Header  title="Discover new culinary possibilities with new technologies"  image={headerImage} >
         Lorem, ipsum dolor sitamet consectetur <br></br> adipisicing elit. Placeat, quasi
         
       </Header>

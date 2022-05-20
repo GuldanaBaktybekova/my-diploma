@@ -1,5 +1,5 @@
 
-import productImage from "../assets/dior2.jpg";
+import productImage from "../assets/kitchen4.jpg";
 import ProductList from "../components/ProductList/ProductList";
 import { getProducts } from "../data/products";
 
@@ -9,8 +9,8 @@ function Products() {
   return (
     <>
       <div className="Products">
-      <Header title1="Choose"span1="your" span="essential"title="accessory" image={productImage} >
-      
+      <Header title="KitchenTech: Better Together" image={productImage} >
+      Discover the ultimate in kitchen collaboration with showstopping suites of appliances designed to bring a cohesive and stylish look to your kitchen.
 
       </Header>
       </div>

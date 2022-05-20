@@ -3,12 +3,17 @@
   position: relative;
   margin-bottom: 5rem;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 .Header img {
   width: 100%;
+  height: 40vh;
+  min-height: 420px;
+  object-fit: cover;
+  object-position: center;
+  
 
- 
  
   
 }
@@ -21,47 +26,55 @@
 }
 .Header section {
   position: absolute;
-  top: -10px;
-  left: 5rem;
+  
+  top: 4rem;
+  left: 10rem;
 
-  color: black;
-  padding: 20px;
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  width: 60%;
   
 
-  background-color: transparent;
+  background-color: rgba(255, 255, 255, 0.013);
  
 
 }
 
 .Header h1 {
-  font-size: 3.3rem;
+  font-size: 34px;
   margin: 10px;
-  color: black;
-  font-weight: bold;
-  
-  
-}
-.Header span, h3 {
-  color: #e49936;
-}
-.Header h3 {
-  font-size: 16px;
-  padding: 14px;
+  color: #fff;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Avenir-Roman",sans-serif;
+
 }
 .Header p {
   padding: 15px;
   
-  color: black;
+  color: #fff;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Avenir-Roman",sans-serif;
+  
 }
+/* .Header span, h3 {
+  color: #e49936;
+} */
+/* .Header h3 {
+  font-size: 16px;
+  padding: 14px;
+} */
 
-@media (max-width: 600px) {
+
+/* @media (max-width: 600px) {
   .Header h1,p {
     font-size: 30px;
    
   }
-}
+} */
 
 
 
@@ -89,23 +102,40 @@
 
 }
 .Products h1 {
-   font-size: 2.5rem;
-   color: white;
+  font-size: 35px;
+   padding: 15px;
+  
+   color: #fff;
+   
+   font-weight: normal;
+   text-align: center;
+   font-family: "Avenir-Roman",sans-serif;
+
  
+}
+.Products p {
+  padding: 15px;
+  
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  font-family: "Avenir-Roman",sans-serif;
   
 }
 .Products section {
   
-  width: 42%;
   position: absolute;
-  left: 5rem;
-  top: -17px;
   
- 
+  top: 4rem;
+  left: 10rem;
+
+  color: white;
   padding: 10px;
-  color: black;
-  background-color: transparent;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 10px;
+  width: 60%;
+  
+
 }
 .Product img  {
   max-width: 300px;
@@ -158,27 +188,6 @@
   
 }
 
-.Category img {
-  width: 100%;
-  max-width: 500px;
-
-}
-.Category p {
-  font-size: 18px;
-  padding: 10px;
-
-  
-  
-}
-.Category section {
-  max-width: 50%;
-
-
-
-}
-.Category h1 {
-  color: #e49936;
-}
 
 
 

@@ -1,149 +1,131 @@
-import handbag2Image from "../assets/handbag2.webp";
-import handbag3Image from "../assets/handbag3.webp";
-import handbag4Image from "../assets/handbag4.webp";
-import handbag6Image from "../assets/handbag6.webp";
-
-
-
-import backpack2Image from "../assets/backpack2.webp";
-
-import backpack3Image from "../assets/backpack3.webp";
-import backpack4Image from "../assets/backpack4.webp";
-import backpack5Image from "../assets/backpack5.webp";
-
-
-import suitcase2Image from "../assets/suitcase2.webp";
-import suitcase3Image from "../assets/suitcase3.webp";
-import suitcase4Image from "../assets/suitcase4.webp";
-import suitcase5Image from "../assets/suitcase5.webp";
+// import mixer1Image from "../assets/mixer1.jpeg";
+import mixer2Image from "../assets/mixer2.jpeg";
+import mixer3Image from "../assets/mixer3.jpeg";
+import major1Image from "../assets/dishwasher.jpg";
+import count1Image from "../assets/kettle1.jpg";
+// import mixer1Image from "../assets/mixer1.jpeg";
+// import mixer1Image from "../assets/mixer1.jpeg";
 
 const products = [
   {
-    image: handbag2Image,
-    productId: "alma-bb",
-    categoryId: "handbags",
-    title: "Alma BB",
-    description: `One slip pocket on the front
-    closes with zipper
-    two handles (handle drop 23 cm)
-    removable and adjustable shoulder strap (Length ca. 60-100 cm)
-    polished gold-coloured metal fittings`,
-    price: 555,
+    image: mixer3Image,
+    productId: "prof5",
+    categoryId: "stand-mixers",
+    title: "Professional 5™",
+    description: `
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Large or Small Batches
+    • Bowl-lift Design for Maximum Stability
+    • 10 Speeds for Nearly any Task or Recipe
+    • 10+ Attachments Available to Make More with your Mixer`,
+    price: 449,
   },
   {
-    image: handbag3Image,
-    productId: "wallet-orange",
-    categoryId: "handbags",
-    title: "Wallet on Strap",
-    description: ` Made of lightweight viscose terry, our striped shirt is just what the warm weather ordered.`,
+    image: mixer2Image,
+    productId: "refurbished-artisan",
+    categoryId: "stand-mixers",
+    title: "Refurbished Artisan",
+    description: ` • Built to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • 10 Speeds for Nearly any Task or Recipe
+    • Match your Style with Over 20 Colors Available
+    `,
     price: 760,
   },
- 
-  {
-    image: handbag4Image,
-    productId: "wallet-black",
-    categoryId: "handbags",
-    title: "Wallet on Strap",
-    description: ` Our patchwork print dress featured in an A-line skirt, sleeveless silhouette, and tie-belt for added definition.`,
-    price: 950,
-  },
-  {
-    image: handbag6Image,
-    productId: "lv-pont",
-    categoryId: "handbags",
-    title: "LV Pont 9 Soft MM",
-    description: `Tommy Hilfiger women's dress. Constructed from a lightweight stretch cotton, our quarter-zip colorblock polo dress is all about sporty style.`,
-    price: 200,
-  },
- 
-
 
   {
-    image: backpack2Image,
-    productId: "tine-backpack",
-    categoryId: "backpacks",
-    title: "Tiny Backpack",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 160,
+    image: mixer3Image,
+    productId: "artisan-5",
+    categoryId: "stand-mixers",
+    title: "Artisan® Series 5",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 205,
   },
   {
-    image: backpack3Image,
-    productId: "montsouris",
-    categoryId: "backpacks",
-    title: "Montsouris Bakcpack",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 980,
+    image: major1Image,
+    productId: "farberware",
+    categoryId: "major-appliances",
+    title: "Farberware Professional ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 77,
   },
   {
-    image: backpack4Image,
-    productId: "montsouris-pink",
-    categoryId: "backpacks",
-    title: "Montsouris Bakcpack Pink",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 104,
+    image: major1Image,
+    productId: "count-dish",
+    categoryId: "major-appliances",
+    title: "Countertop Dishwasher, ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 66,
   },
   {
-    image: backpack5Image,
-    productId: "palm-spring",
-    categoryId: "backpacks",
-    title: "Palm Spring",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 840,
+    image: major1Image,
+    productId: "danby",
+    categoryId: "major-appliances",
+    title: "Danby ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 80,
   },
+  {
+    image: count1Image,
+    productId: "cosori",
 
-  {
-    image: suitcase2Image,
-    productId: "horizon-soft",
-    categoryId: "suitcases",
-    title: "Horizon Soft 55",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 570,
+    categoryId: "countertop-appliances",
+    title: "Cosori ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 50,
   },
   {
-    image: suitcase3Image,
-    productId: "horizon-55",
-    categoryId: "suitcases",
-    title: "Horizon 55",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 480,
+    image: count1Image,
+    productId: "elite",
+
+    categoryId: "countertop-appliances",
+    title: "Elite ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 340,
   },
   {
-    image: suitcase4Image,
-    productId: "horizon55-black",
-    categoryId: "suitcases",
-    title: "Horizon 55",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 780,
-  },
-  {
-    image: suitcase5Image,
-    productId: "horizon55-white",
-    categoryId: "suitcases",
-    title: "Horizon 55",
-    description: `
-     Styled from pure cotton and washed for softness, our essential tees are customer favorites for good reason.
-    `,
-    price: 650,
+    image: count1Image,
+    productId: "bodum",
+
+    categoryId: "countertop-appliances",
+    title: "Bodum ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 120,
   },
 ];
 
 export function getProducts(categoryId) {
   if (categoryId) {
-    return products.filter(product => product.categoryId === categoryId);
+    return products.filter((product) => product.categoryId === categoryId);
   }
   return products;
 }
