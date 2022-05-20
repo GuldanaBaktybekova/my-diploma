@@ -2,7 +2,7 @@
 import mixer2Image from "../assets/mixer2.jpeg";
 import mixer3Image from "../assets/mixer3.jpeg";
 import major1Image from "../assets/dishwasher.jpg";
-import count1Image from "../assets/kettle1.jpg";
+import count1Image from "../assets/kettle2.jpg";
 // import mixer1Image from "../assets/mixer1.jpeg";
 // import mixer1Image from "../assets/mixer1.jpeg";
 

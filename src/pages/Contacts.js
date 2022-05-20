@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/handbag5.png";
+import headerImage from "../assets/wallovens2.webp";
 
 function Contacts() {
   return (

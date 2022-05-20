@@ -1,5 +1,5 @@
 
-import productImage from "../assets/bag000.png";
+import headerImage from "../assets/wallovens2.webp";
 import CategoryList from "../components/CategoryList/CategoryList";
 
 
@@ -10,7 +10,7 @@ function Categories() {
   return (
     <>
       <div className="Products">
-      <Header  image={productImage} >
+      <Header  image={headerImage} >
       
 
       </Header>
