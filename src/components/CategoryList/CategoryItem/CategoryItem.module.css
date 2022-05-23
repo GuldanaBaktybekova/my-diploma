@@ -3,11 +3,11 @@
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
 
-   border-top-left-radius: 80%;
-  border-top-right-radius: 80%;
+
  
   margin: 9px;
   background-color: rgb(68, 71, 70);
+
   
 
  }
@@ -19,6 +19,7 @@
   width: 100%;
   height: 250px;
   display: block;
+  
   
 
   clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
@@ -36,7 +37,7 @@
   
   text-decoration: none;
   font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
-  padding: 5px;
+  padding: 10px;
 }
 
 
