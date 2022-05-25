@@ -6,7 +6,7 @@
 
  
   margin: 9px;
-  background-color: rgb(224, 224, 224);
+  background-color: rgb(196, 18, 48);
   
   
 
@@ -18,7 +18,8 @@
   max-width: 250px;
   width: 100%;
   height: 250px;
-
+  object-fit: contain;
+  clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
   
 /*   
 
@@ -30,15 +31,18 @@
  
 }
 .CategoryItem a {
-  color: black;
+  color: white;
   font-size: 20px;
   text-align: center;
   text-decoration: none;
   font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  
 }
 
 
-
+.CategoryItem a:hover {
+  color: black;
+}
 
 
 

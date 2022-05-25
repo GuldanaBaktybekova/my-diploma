@@ -1,14 +1,14 @@
 // import mixer1Image from "../assets/mixer1.jpeg";
-import mixer2Image from "../assets/mixer2.jpeg";
-import mixer3Image from "../assets/mixer3.jpeg";
-import major1Image from "../assets/dishwasher.jpg";
+import mixer2Image from "../assets/mixer6.jpg";
+// import mixer3Image from "../assets/mixer3.jpeg";
+import major1Image from "../assets/dishwasher2.jpg";
 import count1Image from "../assets/kettle2.jpg";
 // import mixer1Image from "../assets/mixer1.jpeg";
 // import mixer1Image from "../assets/mixer1.jpeg";
 
 const products = [
   {
-    image: mixer3Image,
+    image: mixer2Image,
     productId: "prof5",
     categoryId: "stand-mixers",
     title: "Professional 5™",
@@ -35,7 +35,7 @@ const products = [
   },
 
   {
-    image: mixer3Image,
+    image: mixer2Image,
     productId: "artisan-5",
     categoryId: "stand-mixers",
     title: "Artisan® Series 5",
@@ -74,7 +74,19 @@ const products = [
     image: major1Image,
     productId: "danby",
     categoryId: "major-appliances",
-    title: "Danby ",
+    title: "Danby Professional ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 80,
+  },
+  {
+    image: major1Image,
+    productId: "best",
+    categoryId: "major-appliances",
+    title: "Best Professional Dishwasher ",
     description: ` • KitchenAid Limited Edition
     • The Power and Durability to Take It All On
     • 5 Quart Capacity for Small or Large Batches

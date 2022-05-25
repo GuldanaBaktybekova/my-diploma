@@ -9,10 +9,10 @@
   
 }
 .NavItem a.active {
-  border-color: #e49936;
+  border-color:  rgb(196, 18, 48);
 }
 .NavItem a:hover {
-  color: #e49936;
+  color:  rgb(196, 18, 48);
 
 }
 @media (max-width: 620px) {
