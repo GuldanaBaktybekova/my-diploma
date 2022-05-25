@@ -21,10 +21,11 @@
   object-fit: contain;
   clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
   
-/*   
-
-  clip-path: polygon(0 0,100% 0,100% 85%, 0 100%); */
+  transition: transform 0.25s;
   
+ }
+ .CategoryItem :hover img {
+  transform: scale(1.03);
  }
  .container {
   padding: 18px;
