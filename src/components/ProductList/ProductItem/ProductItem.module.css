@@ -2,41 +2,51 @@
  .ProductItem {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0,3s;
-  border-top-left-radius: 30%;
+  position: relative;
+  flex: 0 0 30%;
+  /* border-top-left-radius: 30%;
   border-top-right-radius: 30%;
- 
+  */
   margin: 8px;
   background-color: rgb(196, 18, 48);
   max-width: 200px;
   width: 100%;
+  padding: 20px;
 
  }
  .ProductItem img {
 
- border-radius: 20px 20px 0 0;
+ border-radius: 20px 0 0 0;
     max-width: 250px;
     width: 100%;
     height: 220px;
     display: block;
-    transition: transform 0.25s;
+    transition:  0.25s;
+    margin-bottom: 10px;
 
   clip-path: polygon(0 0,100% 0,100% 85%, 0 100%);
   
+  
  }
  .ProductItem :hover img {
-  transform: scale(1.03);
+  transform: scale(1.05);
+ 
  }
- .container {
+ /* .container {
   padding: 15px;
  
  
-}
+} */
 .ProductItem a {
+  
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   text-align: center;
   text-decoration: none;
-  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-family: 'Avenir-Heavy','Avenir',sans-serif;
+  
+  
+
   
 }
 .ProductItem a:hover {
@@ -49,9 +59,11 @@
   padding: 5px;
 } */
 .ProductItem .price {
-  position: relative;
-
+  position: absolute;
+  top: -0.4rem;
   z-index: 3;
+  right: -0.4rem;
+  
   font-weight: bold;
   
   
@@ -62,10 +74,11 @@
   padding: 0.8rem;
   text-align: center;
   border-radius: 50%;
-  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   border-top-right-radius: 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  margin-top: 13px;
+  margin: 7px;
+  font-family: 'Avenir-Heavy','Avenir',sans-serif;
 }
 
 
