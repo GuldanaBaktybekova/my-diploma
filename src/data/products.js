@@ -3,6 +3,9 @@ import mixer2Image from "../assets/mixer6.jpg";
 // import mixer3Image from "../assets/mixer3.jpeg";
 import major1Image from "../assets/dishwasher2.jpg";
 import count1Image from "../assets/kettle2.jpg";
+import blenderImage from "../assets/blender1.jpeg";
+import microwaveImage from "../assets/microwave1.webp";
+import handmixerImage from "../assets/handmixer.webp";
 // import mixer1Image from "../assets/mixer1.jpeg";
 // import mixer1Image from "../assets/mixer1.jpeg";
 
@@ -56,7 +59,7 @@ const products = [
     • 5 Quart Capacity for Small or Large Batches
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
-    price: 77,
+    price: 727,
   },
   {
     image: major1Image,
@@ -68,7 +71,7 @@ const products = [
     • 5 Quart Capacity for Small or Large Batches
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
-    price: 66,
+    price: 1666,
   },
   {
     image: major1Image,
@@ -80,7 +83,7 @@ const products = [
     • 5 Quart Capacity for Small or Large Batches
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
-    price: 80,
+    price: 1180,
   },
   {
     image: major1Image,
@@ -92,7 +95,7 @@ const products = [
     • 5 Quart Capacity for Small or Large Batches
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
-    price: 80,
+    price: 1480,
   },
   {
     image: count1Image,
@@ -132,6 +135,127 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 120,
+  },
+
+  {
+    image: blenderImage,
+    productId: "blender3",
+
+    categoryId: "countertop-appliances",
+    title: "Easy blender ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 160,
+  },
+
+  {
+    image: blenderImage,
+    productId: "blender2",
+
+    categoryId: "countertop-appliances",
+    title: "Save Time ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 187,
+  },
+  {
+    image: blenderImage,
+    productId: "blender1",
+
+    categoryId: "countertop-appliances",
+    title: " Blender ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 240,
+  },
+
+  {
+    image: microwaveImage,
+    productId: "microwave3",
+
+    categoryId: "major-appliances",
+    title: " Microwave ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 1400,
+  },
+
+  {
+    image: microwaveImage,
+    productId: "microwave2",
+    categoryId: "major-appliances",
+  
+    title: " Microwave ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 1250,
+  },
+  {
+    image: microwaveImage,
+    productId: "microwave1",
+
+    categoryId: "major-appliances",
+    title: " Microwave ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 1440,
+  },
+
+
+  {
+    image: handmixerImage,
+    productId: "handmixer3",
+
+    categoryId: "stand-mixers",
+    title: " Handmixer ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 347,
+  },{
+    image: handmixerImage,
+    productId: "handmixer2",
+
+    categoryId: "stand-mixers",
+    title: " Handmixer ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 620,
+  },{
+    image: handmixerImage,
+    productId: "handmixer1",
+
+    categoryId: "stand-mixers",
+    title: " Handmixer ",
+    description: ` • KitchenAid Limited Edition
+    • The Power and Durability to Take It All On
+    • 5 Quart Capacity for Small or Large Batches
+    • Easily add Ingredients with the Tilt-Head Design
+    • With 10 Speeds for Nearly any Task or Recipe`,
+    price: 740,
   },
 ];
 
