@@ -1,0 +1,71 @@
+.Main .first {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: white;
+  padding: 50px;
+}
+.Main .first .text {
+  margin: 20px;
+  font-family: "Avenir-Heavy",Avenir,sans-serif;
+}
+.Main .first .text h2 {
+  font-size: 30px;
+}
+.Main .first .text p {
+  font-size: 20px;
+  color: black;
+}
+.Main .first .mainImage {
+  margin:  0 15px 0 0;
+  width: 100%;
+  max-width: 100%;
+}
+
+.Main .second img{
+  width: 100%;
+  max-width: 500px;
+  max-height: min-content;
+
+}
+.Main .second {
+  padding: 15px;
+  text-align: center;
+  background-color: rgb(196, 18, 48);
+  margin: 10px;
+}
+.Main .second h1, p {
+  color: white;
+  font-family: "Avenir-Heavy",Avenir,sans-serif;
+  text-align: left;
+  padding: 15px;
+  margin: 20px;
+}
+
+
+
+.Main .col {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(196, 18, 48);
+  padding: 20px;
+  margin: 15px;
+  
+  font-family: "Avenir-Heavy",Avenir,sans-serif;
+}
+.Main .col img {
+  width: 100%;
+  max-width: 430px;
+ 
+  
+}
+.Main .col1 h2,li {
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.Main .col1 {
+  width: 50%;
+  padding: 15px;
+  text-align: center;
+}

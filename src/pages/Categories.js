@@ -9,7 +9,8 @@ import { getCategories } from "../data/categories";
 function Categories() {
   return (
     <>
-      <div className="Products">
+      <div className="Categories">
+       
       <Header  image={headerImage} >
       
 

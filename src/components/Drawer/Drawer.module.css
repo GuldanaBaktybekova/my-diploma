@@ -1,6 +1,6 @@
 .Drawer .content {
   padding: 1rem 0;
-  background-color:  #a1a09f;
+  background-color:  #e3e1df;
   color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   width: 220px;
@@ -16,7 +16,7 @@
   transition: transform .3s;
 }
 .Drawer .backdrop {
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(198, 196, 196, 0.3);
 
   position: fixed;
   top: 0;

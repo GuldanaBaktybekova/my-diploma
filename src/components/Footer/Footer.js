@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer className="Footer">
       <div className="container">
-      BAG 2022
+      KitchenTech 2022
       </div>
     </footer>
   );

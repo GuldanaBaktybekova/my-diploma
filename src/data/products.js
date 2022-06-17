@@ -266,7 +266,7 @@ export function getProducts(categoryId) {
   return products;
 }
 
-// dark-roast
+
 export function getProduct(productId) {
   return products[
     products.findIndex((product) => product.productId === productId)

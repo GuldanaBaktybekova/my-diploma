@@ -1,11 +1,12 @@
 .Nav {
   list-style: none;
-  padding: 5px;
+  padding: 1px;
   margin: 0;
   display: flex;
   
 
 }
+
   /* background-color:  rgb(252, 252, 252) ;
   color: black;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
