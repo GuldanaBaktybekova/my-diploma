@@ -1,15 +1,16 @@
 import mainImage from "../assets/builtIn.jpeg";
 // import main2Image from "../assets/img1.jpg";
-import main3Image from "../assets/types.jpg";import main4Image from "../assets/steps.jpg";
-import "./Main.css";
+import main3Image from "../assets/types.jpg";
+// import main4Image from "../assets/steps.jpg";
+import classes from  "./Main.module.css";
 function Main() {
   return (
-    <div className="Main">
-      <div className="first">
+    <div className={classes.Main}>
+      <div className={classes.first}>
         <div>
-          <img className="mainImage" src={mainImage} alt="main" />
+          <img className={classes.mainImage} src={mainImage} alt="main" />
         </div>
-        <div className="text">
+        <div className={classes.text}>
           <h2>Built-In Refrigerators</h2>
           <p>
             Built-in refrigerators can be customized to match surrounding
@@ -32,8 +33,8 @@ function Main() {
         </div>
       </div> */}
 
-      <div className="col">
-      <div className="col1">
+      <div className={classes.col}>
+      <div className={classes.col1}>
           <h2>COMPLETE YOUR KITCHEN AND SAVE</h2>
           <ul>
             <li>Add extra storage for entertaining with an undercounter refrigerato</li>
@@ -41,8 +42,8 @@ function Main() {
             <li>Don't miss limited-time offers on select Kitchentech® appliances.</li>
           </ul>
         </div>
-        <div className="col2">
-          <img src={main3Image}/>
+        <div className={classes.col2}>
+          <img src={main3Image} alt="main"/>
         </div>
       
       </div>
