@@ -1,175 +1,145 @@
-
 .Header {
   position: relative;
-  margin-bottom: 5rem;
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 0;
 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .Header img {
   width: 100%;
   max-width: 100%;
   height: 40vh;
-  min-height: 420px;
+  min-height: 370px;
   object-fit: cover;
   object-position: center;
- 
-
- 
-  
 
   /* opacity:0.6;
    -moz-opacity:0.8;
   filter: alpha(opacity=80) black;
   -khtml-opacity: 0.8;
   background-color:rgb(53, 52, 52); */
-  
-
- 
-  
 }
-  
-.Header .responsive  {
-  
- width: 100%;
- max-height: 450px;
- height: auto
+
+.Header .responsive {
+  width: 100%;
+  max-height: 450px;
+  height: auto;
 }
 .Header section {
   position: absolute;
-  
-  top: 20%;
-  left: 18%;
+
+  top: 30%;
+  left: 1%;
 
   color: white;
   padding: 15px;
   margin: 10px;
-  width: 60%;
-  
+  max-width: 40%;
 
   background-color: rgba(24, 23, 23, 0.423);
- 
-
 }
 
 .Header h1 {
-  font-size: 34px;
-  margin: 10px;
-  color: #fff;
-  font-weight: normal;
-  text-align: center;
-  font-family: "Avenir-Roman",sans-serif;
+  padding: 0.5rem 3rem;
+  color: #f2f2f2;
+  font-size: 0.6rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-family: Muli, sans-serif;
 
+  font-weight: 400;
+  letter-spacing: 1.82px;
+  text-transform: uppercase;
 }
 .Header p {
-  padding: 15px;
-  
-  color: #fff;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-  font-family: "Avenir-Roman",sans-serif;
-  
+  padding: 0.5rem 3rem;
+  color: #f2f2f2;
+  font-size: 0.5rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-family: Muli, sans-serif;
+
+  font-weight: 400;
+  letter-spacing: 1.82px;
 }
-/* .Header span, h3 {
-  color: #e49936;
-} */
-/* .Header h3 {
-  font-size: 16px;
-  padding: 14px;
-} */
 
 
-/* @media (max-width: 600px) {
-  .Header h1,p {
-    font-size: 30px;
-   
-  }
-} */
+/*  */
+.Products {
+  position: relative;
+  margin-bottom: 0;
 
-
-
-  
- 
-  /* object-position: none;
-  object-fit: none; */
-
-
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
 
 .Products img {
   width: 100%;
+  max-width: 100%;
+  height: 30vh;
+  min-height: 320px;
+  object-fit: cover;
+  object-position: center;
 
- 
-  
- 
-} 
+  /* opacity:0.6;
+   -moz-opacity:0.8;
+  filter: alpha(opacity=80) black;
+  -khtml-opacity: 0.8;
+  background-color:rgb(53, 52, 52); */
+}
+
 .Products .responsive {
- 
   width: 100%;
-  
+  max-height: 450px;
   height: auto;
-  max-height: 400px;
-  
-
-}
-.Products h1 {
-  font-size: 35px;
-   padding: 15px;
-  
-   color: #fff;
-   
-   font-weight: normal;
-   text-align: center;
-   font-family: "Avenir-Roman",sans-serif;
-
- 
-}
-.Products p {
-  padding: 15px;
-  
-  color: #fff;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-  font-family: "Avenir-Roman",sans-serif;
-  
 }
 .Products section {
-  
   position: absolute;
-  
-  top: 4rem;
-  left: 10rem;
+
+  top: 10%;
+  left: 1%;
 
   color: white;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
-  width: 100%;
-  max-width: 60%;
-  
+  max-width: 40%;
 
+  background-color: transparent;
 }
 
-.Product img  {
+.Products h1 {
+  padding: 0.5rem 3rem;
+  color: #f2f2f2;
+  font-size: 1rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-family: Muli, sans-serif;
+
+  font-weight: 400;
+  letter-spacing: 1.82px;
+  text-transform: uppercase;
+}
+.Products p {
+  padding: 0.5rem 3rem;
+  color: #f2f2f2;
+  font-size: 0.5rem;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  font-family: Muli, sans-serif;
+
+  font-weight: 400;
+  letter-spacing: 1.82px;
+}
+
+/*  */
+.Product img {
   border-radius: 30%;
   width: 100%;
   max-width: 300px;
   margin: 20px;
   object-fit: contain;
-  
- 
- 
- 
-  
-  
 }
 
-
-
-
-.Product h1  {
-
+.Product h1 {
   max-width: 300px;
   position: relative;
   left: 20rem;
@@ -179,44 +149,37 @@
   line-height: 2rem;
   font-weight: 500;
   color: black;
-  border-bottom: 1px solid #bab7b1 ;
+  border-bottom: 1px solid #bab7b1;
   border-top: none;
-
 }
 
-.Product p  {
-
+.Product p {
   max-width: 300px;
   position: relative;
   left: 20rem;
 
   font-size: 1rem;
-  letter-spacing: .025rem;
+  letter-spacing: 0.025rem;
   line-height: 1.5rem;
   font-weight: 300;
   color: inherit;
-  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-family: "Louis Vuitton Web", "Helvetica Neue", "Helvetica", Arial,
+    sans-serif;
   color: black;
 }
 .Product .price {
   font-size: 1rem;
-  letter-spacing: .025rem;
+  letter-spacing: 0.025rem;
   line-height: 1.5rem;
   font-weight: 300;
   color: inherit;
-  font-family: "Louis Vuitton Web","Helvetica Neue","Helvetica",Arial,sans-serif;
+  font-family: "Louis Vuitton Web", "Helvetica Neue", "Helvetica", Arial,
+    sans-serif;
   color: black;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
   border-bottom: 1px solid #bab7b1;
-  
 }
 
-
-
 .Product section {
- background-color: transparent;
-
-
-
-
+  background-color: transparent;
 }

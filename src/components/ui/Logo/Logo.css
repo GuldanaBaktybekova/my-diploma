@@ -1,8 +1,18 @@
 .Logo {
-  font-size: 25px;
-  font-weight: 700;
+  font-size: 1.3rem;
+  font-weight: 900;
   margin: 0 1rem;
-  color: rgb(196, 18, 48);
+  color: white;
+  text-align: center;
+ 
+
+
+  
+  
+  padding: 10px 0 0 0;
+  font-family: Muli,sans-serif;
+  position: relative;
+  left: -35px;
   /* font-family: "Avenir-Roman",sans-serif;
   */
  

@@ -1,18 +1,29 @@
 .NavItem a {
   display: block;
   padding: 0.5rem 3rem;
-  color: black;
-  font-size: 18px;
+  color: #f2f2f2;
+  font-size: 0.6rem;
   text-decoration: none;
   border-bottom: 3px solid transparent;
+  font-family: Muli,sans-serif;
+
+
+ 
+  font-weight: 400;
+  letter-spacing: 1.82px;
+  text-transform: uppercase;
+  transition: all .5s ease-in-out;
+  cursor: pointer;
+
+
   
   
 }
 .NavItem a.active {
-  border-color:  rgb(196, 18, 48);
+  border-color:  white;
 }
 .NavItem a:hover {
-  color:  rgb(196, 18, 48);
+  color:  rgb(183, 179, 180);
 
 }
 @media (max-width: 620px) {

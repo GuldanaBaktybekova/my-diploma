@@ -1,0 +1,26 @@
+/* .InputSearch {
+  margin: 10px 0 0 0;
+} */
+.InputSearch input {
+  margin: 10px 0 10px 10px;
+  padding: 1px;
+  width: 140px;
+
+}
+.InputSearch button {
+  margin-bottom: 0;
+  padding: 0;
+  background-color: rgb(10, 1, 1);
+
+
+}
+.InputSearch button svg  {
+  
+  padding: 0;
+
+  width: 16px;
+  height: 13px;
+  color: white;
+  
+
+}
