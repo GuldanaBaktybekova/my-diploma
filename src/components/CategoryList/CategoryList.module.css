@@ -7,3 +7,10 @@
   width: 100%;
 }
 
+@media (max-width: 620px) {
+  .CategoryList {
+    max-width: 100%;
+    flex-wrap: wrap;
+  
+  }
+}
