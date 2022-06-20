@@ -1,0 +1,11 @@
+.FooterIcon {
+  display: flex;
+  
+
+}
+.FooterIcon svg {
+  padding: 10px;
+  position: relative;
+  top: -10px;
+
+}

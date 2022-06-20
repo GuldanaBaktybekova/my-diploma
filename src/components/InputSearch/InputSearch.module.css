@@ -5,6 +5,7 @@
   margin: 10px 0 10px 10px;
   padding: 1px;
   width: 140px;
+  display: inline-block;
 
 }
 .InputSearch button {
@@ -21,6 +22,13 @@
   width: 16px;
   height: 13px;
   color: white;
+  display: inline-block;
   
 
 }
+
+@media (max-width: 620px) {
+  .InputSearch  input,button{
+    display: none;
+  }
+} 

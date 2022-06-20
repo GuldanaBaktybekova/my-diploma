@@ -8,6 +8,7 @@ function ProductItem({ product }) {
     <Link to={"/products/" + product.productId}> <img src={product.image} alt={product.title} /> </Link>
     <Link to={"/products/" + product.productId}>{product.title}</Link>
     <div className={classes.price}>${product.price}</div>
+    {/* <div className={classes.buy}><button>{product.buy}</button></div> */}
   </div>
   );
 }

@@ -21,7 +21,8 @@
 
 
 @media (max-width: 620px) {
-  .Toolbar ul {
+  .Toolbar  .nav2{
     display: none;
   }
+  
 } 

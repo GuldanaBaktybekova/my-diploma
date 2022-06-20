@@ -4,6 +4,7 @@
   margin: 0 1rem;
   color: white;
   text-align: center;
+  
  
 
 
@@ -13,8 +14,13 @@
   font-family: Muli,sans-serif;
   position: relative;
   left: -35px;
-  /* font-family: "Avenir-Roman",sans-serif;
-  */
+
  
 }
+
+@media (max-width: 620px) {
+  .Logo  {
+    padding-left: 70px;
+  }
+} 
 /* #e49936 */

@@ -22,6 +22,7 @@ const products = [
     • 10 Speeds for Nearly any Task or Recipe
     • 10+ Attachments Available to Make More with your Mixer`,
     price: 449,
+    buy: "Buy",
   },
   {
     image: mixer2Image,
@@ -35,6 +36,7 @@ const products = [
     • Match your Style with Over 20 Colors Available
     `,
     price: 760,
+    buy: "Buy",
   },
 
   {
@@ -48,6 +50,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 205,
+    buy: "Buy",
   },
   {
     image: major1Image,
@@ -60,6 +63,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 727,
+    buy: "Buy",
   },
   {
     image: major1Image,
@@ -72,6 +76,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 1666,
+    buy: "Buy",
   },
   {
     image: major1Image,
@@ -84,18 +89,20 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 1180,
+    buy: "Buy",
   },
   {
     image: major1Image,
     productId: "best",
     categoryId: "major-appliances",
-    title: "Best Professional Dishwasher ",
+    title: "Best Dishwasher ",
     description: ` • KitchenAid Limited Edition
     • The Power and Durability to Take It All On
     • 5 Quart Capacity for Small or Large Batches
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 1480,
+    buy: "Buy",
   },
   {
     image: count1Image,
@@ -109,6 +116,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 50,
+    buy: "Buy",
   },
   {
     image: count1Image,
@@ -122,6 +130,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 340,
+    buy: "Buy",
   },
   {
     image: count1Image,
@@ -135,6 +144,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 120,
+    buy: "Buy",
   },
 
   {
@@ -149,6 +159,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 160,
+    buy: "Buy",
   },
 
   {
@@ -163,6 +174,8 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 187,
+    buy: "Buy",
+
   },
   {
     image: blenderImage,
@@ -176,6 +189,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 240,
+    buy: "Buy",
   },
 
   {
@@ -190,6 +204,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 1400,
+    buy: "Buy",
   },
 
   {
@@ -204,6 +219,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 1250,
+    buy: "Buy",
   },
   {
     image: microwaveImage,
@@ -217,6 +233,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 1440,
+    buy: "Buy",
   },
 
 
@@ -232,6 +249,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 347,
+    buy: "Buy",
   },{
     image: handmixerImage,
     productId: "handmixer2",
@@ -244,6 +262,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 620,
+    buy: "Buy",
   },{
     image: handmixerImage,
     productId: "handmixer1",
@@ -256,6 +275,7 @@ const products = [
     • Easily add Ingredients with the Tilt-Head Design
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 740,
+    buy: "Buy",
   },
 ];
 

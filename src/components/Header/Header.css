@@ -131,12 +131,26 @@
 }
 
 /*  */
+.Product {
+  background-color: white;
+ 
+}
 .Product img {
-  border-radius: 30%;
+ 
   width: 100%;
   max-width: 300px;
   margin: 20px;
   object-fit: contain;
+  border: 2px solid black;
+
+}
+.Product section {
+  position: relative;
+  top: -25rem;
+   
+  left: 25%;
+  background-color: #d2d1d0;
+
 }
 
 .Product h1 {
@@ -151,6 +165,9 @@
   color: black;
   border-bottom: 1px solid #bab7b1;
   border-top: none;
+  font-family: Muli, sans-serif;
+
+  
 }
 
 .Product p {
@@ -163,18 +180,18 @@
   line-height: 1.5rem;
   font-weight: 300;
   color: inherit;
-  font-family: "Louis Vuitton Web", "Helvetica Neue", "Helvetica", Arial,
-    sans-serif;
+  font-family: Muli, sans-serif;
+
   color: black;
 }
 .Product .price {
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: 0.025rem;
   line-height: 1.5rem;
-  font-weight: 300;
+  font-weight: 700;
   color: inherit;
-  font-family: "Louis Vuitton Web", "Helvetica Neue", "Helvetica", Arial,
-    sans-serif;
+  font-family: Muli, sans-serif;
+
   color: black;
   margin-bottom: 10px;
   border-bottom: 1px solid #bab7b1;
@@ -182,4 +199,68 @@
 
 .Product section {
   background-color: transparent;
+}
+/*  */
+
+
+.Contacts {
+  background-color: #020202;
+  font-family: Muli,sans-serif
+}
+.Contacts img  {
+  max-width: 500px;
+  width: 100%;
+  transition: all 1s ease-in-out;
+  transform: scale(1);
+  vertical-align: middle;
+  border-style: none;
+  margin: 10px;
+  margin-top: 50px;
+
+}
+.Contacts h1 {
+  position: relative;
+  top: -10rem;
+  font-size: 1rem;
+  border-left: 1px solid white;
+
+}
+.Contacts p {
+  position: relative;
+  top: -5rem;
+  right: -32rem;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+
+}
+.Contacts section {
+  background-color: transparent;
+}
+
+/*  */
+
+.Category  img{
+  min-height: 270px;
+
+}
+.Category  section{
+  
+  background-color: transparent;
+  color: black;
+  
+
+}
+
+.Category  h1{
+  color: black;
+  font-size: 1rem;
+  position: relative;
+  top: -4rem;
+
+}
+.Category  p{
+  color: black;
+  font-size: 0.6rem;
+  position: relative;
+  top: -4rem;
 }
