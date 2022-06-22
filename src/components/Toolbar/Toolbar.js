@@ -1,3 +1,4 @@
+import CartLink from "../CartLink/CartLink";
 import InputSearch from "../InputSearch/InputSearch";
 import Nav from "../Nav/Nav";
 import NavIcon from "../Nav/NavIcon/NavIcon";
@@ -21,6 +22,7 @@ function Toolbar({ toggleDrawer }) {
           <Nav />
         </div>
         <NavToggle callback={toggleDrawer} />
+        <CartLink />
       </div>
     </nav>
   );
