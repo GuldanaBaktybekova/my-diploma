@@ -1,8 +1,8 @@
 .Drawer .content {
   padding: 1rem 0;
-  background-color:  #141413;
+  background-color: #141413;
   color: white;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   width: 220px;
   overflow: hidden;
 
@@ -13,8 +13,7 @@
   z-index: 100;
 
   transform: translateX(-300px);
-  transition: transform .3s;
- 
+  transition: transform 0.3s;
 }
 .Drawer .backdrop {
   background-color: rgba(198, 196, 196, 0.3);
@@ -42,4 +41,4 @@
   .Drawer .content {
     transform: translateX(-300px);
   }
-} 
+}

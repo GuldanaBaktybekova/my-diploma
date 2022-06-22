@@ -6,10 +6,11 @@ function CategoryItem({ category }) {
     <div className={classes.CategoryItem}>
       <div className={classes.container}>
         <Link to={"/categories/" + category.categoryId}>{category.title} </Link>
-      
       </div>
-    <Link to={"/categories/" + category.categoryId}>  <img src={category.image} alt={category.title} /></Link>
-      
+      <Link to={"/categories/" + category.categoryId}>
+        {" "}
+        <img src={category.image} alt={category.title} />
+      </Link>
     </div>
   );
 }

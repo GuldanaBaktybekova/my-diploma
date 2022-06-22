@@ -1,10 +1,8 @@
 .Toolbar {
-  background-color:  #020202;
+  background-color: #020202;
   color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .Toolbar .container {
   /* display: flex; */
@@ -16,13 +14,10 @@
   align-items: center;
   justify-content: space-between;
   height: 40px;
-  
 }
 
-
 @media (max-width: 620px) {
-  .Toolbar  .nav2{
+  .Toolbar .nav2 {
     display: none;
   }
-  
-} 
+}

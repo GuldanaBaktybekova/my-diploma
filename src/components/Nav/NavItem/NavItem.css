@@ -5,30 +5,23 @@
   font-size: 0.6rem;
   text-decoration: none;
   border-bottom: 3px solid transparent;
-  font-family: Muli,sans-serif;
+  font-family: Muli, sans-serif;
 
-
- 
   font-weight: 400;
   letter-spacing: 1.82px;
   text-transform: uppercase;
-  transition: all .5s ease-in-out;
+  transition: all 0.5s ease-in-out;
   cursor: pointer;
-
-
-  
-  
 }
 .NavItem a.active {
-  border-color:  white;
+  border-color: white;
 }
 .NavItem a:hover {
-  color:  rgb(183, 179, 180);
-
+  color: rgb(183, 179, 180);
 }
 @media (max-width: 620px) {
   .NavItem a {
     border-bottom: none;
     border-right: 5px solid transparent;
   }
-} 
+}

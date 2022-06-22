@@ -1,4 +1,4 @@
-import classes from  "./NavIcon.module.css";
+import classes from "./NavIcon.module.css";
 function NavIcon() {
   return (
     <div className={classes.NavIcon}>

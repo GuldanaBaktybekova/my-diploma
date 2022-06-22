@@ -1,17 +1,13 @@
-.Footer {  
+.Footer {
   background-color: #020202;
   padding: 1rem;
   text-align: center;
   color: white;
-  font-family: Muli,sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 1rem;
-
-  
-  
 }
 .Footer p {
   font-size: 0.8rem;
-
 }
 
 .Footer .container {

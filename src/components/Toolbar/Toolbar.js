@@ -16,7 +16,10 @@ function Toolbar({ toggleDrawer }) {
           <Logo />
           <NavIcon />
         </div>
-       <div className={classes.nav2}> <Nav /></div>
+        <div className={classes.nav2}>
+          {" "}
+          <Nav />
+        </div>
         <NavToggle callback={toggleDrawer} />
       </div>
     </nav>

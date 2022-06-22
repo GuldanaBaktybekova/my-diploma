@@ -15,10 +15,10 @@ function Drawer({ open, toggle }) {
       <div className={classes.content}>
         <Logo />
         <Nav />
-        <InputSearch/>
+        <InputSearch />
       </div>
     </div>
   );
 }
 
-export default Drawer; 
+export default Drawer;

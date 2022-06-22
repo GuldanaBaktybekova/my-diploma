@@ -175,7 +175,6 @@ const products = [
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 187,
     buy: "Buy",
-
   },
   {
     image: blenderImage,
@@ -211,7 +210,7 @@ const products = [
     image: microwaveImage,
     productId: "microwave2",
     categoryId: "major-appliances",
-  
+
     title: " Microwave ",
     description: ` • KitchenAid Limited Edition
     • The Power and Durability to Take It All On
@@ -236,7 +235,6 @@ const products = [
     buy: "Buy",
   },
 
-
   {
     image: handmixerImage,
     productId: "handmixer3",
@@ -250,7 +248,8 @@ const products = [
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 347,
     buy: "Buy",
-  },{
+  },
+  {
     image: handmixerImage,
     productId: "handmixer2",
 
@@ -263,7 +262,8 @@ const products = [
     • With 10 Speeds for Nearly any Task or Recipe`,
     price: 620,
     buy: "Buy",
-  },{
+  },
+  {
     image: handmixerImage,
     productId: "handmixer1",
 
@@ -285,7 +285,6 @@ export function getProducts(categoryId) {
   }
   return products;
 }
-
 
 export function getProduct(productId) {
   return products[
