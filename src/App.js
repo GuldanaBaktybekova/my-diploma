@@ -9,6 +9,7 @@ import Contacts from "./pages/Contacts";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
 import Cart from "./pages/Cart";
+import Checkout from "./pages/Checkout";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 
@@ -34,6 +35,7 @@ function App() {
           <Route path="/contacts" element={<Contacts />} />
           
           <Route path="/cart" element={<Cart />} />
+          <Route path="/checkout" element={<Checkout />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>
