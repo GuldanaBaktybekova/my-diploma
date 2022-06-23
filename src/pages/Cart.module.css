@@ -1,0 +1,32 @@
+.Cart {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: Muli, sans-serif;
+}
+.Cart .title {
+  color: black;
+  text-decoration: none;
+}
+.Cart .Total {
+
+  display: flex;
+  justify-content: flex-end;
+}
+.Cart .a {
+  color: black;
+  text-decoration: none;
+}
+.Cart button {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  padding: 5px 7px;
+}
+.Cart2 {
+  height: 800px;
+  background-color: white;
+
+}
+.Cart2 .output {
+  margin: 20px;
+}
