@@ -1,5 +1,7 @@
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
+import cartImage from "../../assets/cart.jpg";
+import classes from './CartLink.module.css'
 
 export default function CartLink() {
   const number = useSelector(store => {
@@ -7,6 +9,6 @@ export default function CartLink() {
   });
 
   return (
-    <NavLink to="/cart">Cart ({number})</NavLink>
+    <div className={classes.CartLink}><NavLink to="/cart"><img src={cartImage} alt="cartImage"/><span>{number}</span></NavLink></div>
   );
 }
