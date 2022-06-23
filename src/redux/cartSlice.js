@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createSlice } from  '@reduxjs/toolkit';
 
 function saveInStorage(items) {
   localStorage.setItem('cartItems', JSON.stringify(items));

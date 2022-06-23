@@ -1,8 +1,9 @@
 import CartLink from "../CartLink/CartLink";
 import InputSearch from "../InputSearch/InputSearch";
 import Nav from "../Nav/Nav";
-import NavIcon from "../Nav/NavIcon/NavIcon";
+// import NavIcon from "../Nav/NavIcon/NavIcon";
 import NavToggle from "../Nav/NavToggle/NavToggle";
+
 
 import Logo from "../ui/Logo/Logo";
 import classes from "./Toolbar.module.css";
@@ -15,14 +16,14 @@ function Toolbar({ toggleDrawer }) {
           <InputSearch />
 
           <Logo />
-          <NavIcon />
+         <CartLink/>
         </div>
         <div className={classes.nav2}>
           {" "}
           <Nav />
         </div>
         <NavToggle callback={toggleDrawer} />
-        <CartLink />
+       
       </div>
     </nav>
   );

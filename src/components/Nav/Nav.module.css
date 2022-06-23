@@ -12,28 +12,7 @@
   text-align: center;
 }
 
-/* background-color:  rgb(252, 252, 252) ;
-  color: black;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
-}
-/* #302e31 */
-/* .Nav .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly; */
 
-/* flex-wrap: nowrap;
-  padding-bottom: 0.2rem;
-  margin-top: -1px;
-  
-  text-align: center;
-  height: 2.75rem; */
-
-/* .Nav ul {
-
-} */
 @media (max-width: 600px) {
   .Nav ul {
     display: none;

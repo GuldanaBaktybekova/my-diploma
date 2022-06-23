@@ -13,11 +13,11 @@ function Product() {
 
   return (
     <div className="Product">
-       <CartButton productId={params.productId} />
       <Header image={product.image} title={product.title}>
         <div className="price">${product.price}</div>
 
         {product.description}
+        <CartButton productId={params.productId} />
       </Header>
     </div>
   );

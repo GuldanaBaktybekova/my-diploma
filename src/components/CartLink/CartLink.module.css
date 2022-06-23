@@ -1,7 +1,7 @@
 .CartLink img {
  
  background-color: transparent;
-  width: 30px;
+  width: 25px;
   padding: 5px;
   position: relative;
   top: 10px;
@@ -13,5 +13,6 @@
   position: relative;
   right: 35px;
   top: -17px;
+  font-size: 12px;
  
 }

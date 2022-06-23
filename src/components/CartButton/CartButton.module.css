@@ -1,0 +1,12 @@
+.CartButton {
+  padding: 5px 7px;
+  background-color: black;
+  color: white;
+  font-family: Muli,sans-serif;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.CartButton:hover {
+  color: rgb(224, 221, 221);
+}
