@@ -4,15 +4,15 @@
   width: 25px;
   padding: 5px;
   position: relative;
-  top: 10px;
+  top: 8px;
   right: 15px;
 }
 .CartLink span {
   text-decoration: none;
   color: white;
   position: relative;
-  right: 35px;
-  top: -17px;
+  right: 33px;
+  top: -16px;
   font-size: 12px;
  
 }
