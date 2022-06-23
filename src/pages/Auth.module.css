@@ -1,0 +1,22 @@
+.Auth {
+  padding: 50px;
+  background-color: white;
+  display: flex;
+ 
+}
+.Auth label  {
+  background-color: black;
+  color: white;
+  padding: 10px;
+}
+.Auth input {
+  margin: 5px;
+  border-radius: 8px;
+  border: none;
+}
+.Auth button {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius:  7px;
+}
