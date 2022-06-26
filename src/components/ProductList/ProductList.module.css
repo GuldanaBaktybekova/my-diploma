@@ -4,3 +4,13 @@
   flex-wrap: wrap;
   margin: 20px;
 }
+.search {
+  position: relative;
+  left: 1.5rem;
+
+  margin: 10px 0 10px 10px;
+  padding: 5px;
+  width: 170px;
+ 
+  border-radius: 10px;
+}
