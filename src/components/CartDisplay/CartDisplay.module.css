@@ -1,3 +1,45 @@
 .CartDisplay .cartItem {
   display: flex;
 } 
+
+
+
+.CartDisplay .total {
+  border-top: 1px solid white;
+  background-color: #020202;
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  font-family: Muli,sans-serif;
+  font-weight: bold;
+}
+.CartDisplay a {
+  color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  background-color: #020202;
+  width: 100%;
+  font-family: Muli, sans-serif;
+  font-weight: bold;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.CartDisplay a:hover {
+  color: rgb(209, 206, 206);
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,6 +2,7 @@ import { useSelector } from "react-redux";
 import { getProducts } from "../../data/products";
 import classes from "./CartDisplay.module.css";
 import CartItem from "../CartItem/CartItem";
+import { Link } from "react-router-dom";
 
 function CartDisplay({ actions }) {
   const items = useSelector(store => store.cart.items);
@@ -29,8 +30,11 @@ function CartDisplay({ actions }) {
   return (
     <div class={classes.CartDisplay}>
       {output}
-      <hr />
-      Total: ${total}
+    
+      <div className={classes.total}>Total: ${total}</div>
+      <Link to="/checkout">
+        Checkout
+      </Link>
     </div>
   );
 }
