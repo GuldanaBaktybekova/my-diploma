@@ -287,7 +287,7 @@
    top: -6rem;
    left: -1rem;
   }
-  
+
 }
 
 @media (max-width: 700px) {
@@ -302,10 +302,15 @@
   .Contacts p {
     position: relative;
   
-    left: 1rem;
-    top:  3rem;
+    left: 5rem;
+    top:  -1rem;
     background-color: #313130ce;
     font-size: 1rem;
+   
+  }
+  .Contacts img {
+    max-width: 770px;
+    width: 100%;
    
   }
   
