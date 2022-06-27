@@ -3,7 +3,6 @@ import headerImage from "../assets/tech-with-style.jpeg";
 import CategoryList from "../components/CategoryList/CategoryList";
 import { getCategories } from "../data/categories";
 
-import "./pages.css";
 function Home() {
   return (
     <>
@@ -20,5 +19,3 @@ function Home() {
 }
 
 export default Home;
-
-// https://www.mockplus.com/blog/post/website-header-design

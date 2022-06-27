@@ -63,31 +63,29 @@
   letter-spacing: 1.82px;
 }
 @media (max-width: 700px) {
-  .Header section  {
+  .Header section {
     position: absolute;
 
     top: 15%;
     left: 7%;
-  
+
     color: white;
     padding: 15px;
     margin: 10px;
     max-width: 80%;
-  
   }
 }
 @media (max-width: 620px) {
-  .Header section  {
+  .Header section {
     position: absolute;
 
     top: 15%;
     left: 7%;
-  
+
     color: white;
     padding: 15px;
     margin: 10px;
     max-width: 80%;
-  
   }
 }
 
@@ -160,7 +158,6 @@
 /*  */
 .Product {
   background-color: white;
-  
 }
 .Product img {
   width: 100%;
@@ -222,7 +219,6 @@
   border-bottom: 1px solid #bab7b1;
 }
 
-
 /*  */
 
 .Contacts {
@@ -256,9 +252,6 @@
   background-color: transparent;
 }
 
-
-
-
 /*  */
 
 .Category img {
@@ -283,35 +276,30 @@
 }
 @media (max-width: 620px) {
   .Contacts h1 {
-   position: relative;
-   top: -6rem;
-   left: -1rem;
+    position: relative;
+    top: -6rem;
+    left: -1rem;
   }
-
 }
 
 @media (max-width: 700px) {
   .Contacts h1 {
-   position: relative;
-   top: -6rem;
-   left: -1rem;
+    position: relative;
+    top: -6rem;
+    left: -1rem;
   }
-  
 }
 @media (max-width: 830px) {
   .Contacts p {
     position: relative;
-  
+
     left: 5rem;
-    top:  -1rem;
+    top: -1rem;
     background-color: #313130ce;
     font-size: 1rem;
-   
   }
   .Contacts img {
     max-width: 770px;
     width: 100%;
-   
   }
-  
 }

@@ -5,13 +5,13 @@ import CartItem from "../CartItem/CartItem";
 import { Link } from "react-router-dom";
 
 function CartDisplay({ actions }) {
-  const items = useSelector(store => store.cart.items);
+  const items = useSelector((store) => store.cart.items);
   const products = getProducts();
 
   let total = 0;
   let output = products
-    .filter(product => items[product.productId])
-    .map(product => {
+    .filter((product) => items[product.productId])
+    .map((product) => {
       total += product.price * items[product.productId];
 
       return (
@@ -19,7 +19,8 @@ function CartDisplay({ actions }) {
           product={product}
           quantity={items[product.productId]}
           key={product.productId}
-          actions={actions} />
+          actions={actions}
+        />
       );
     });
 
@@ -30,13 +31,11 @@ function CartDisplay({ actions }) {
   return (
     <div class={classes.CartDisplay}>
       {output}
-    
+
       <div className={classes.total}>Total: ${total}</div>
-      <Link to="/checkout">
-        Checkout
-      </Link>
+      <Link to="/checkout">Checkout</Link>
     </div>
   );
 }
 
-export default CartDisplay; 
+export default CartDisplay;

@@ -12,10 +12,7 @@ import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
 
-
 function App() {
-  
-
   return (
     <div className="App">
       <Layout>
@@ -28,10 +25,10 @@ function App() {
           <Route path="/categories/:categoryId" element={<Category />} />
 
           <Route path="/contacts" element={<Contacts />} />
-          
+
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
-          
+
           <Route path="/auth" element={<Auth />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

@@ -1,4 +1,3 @@
-import InputSearch from "../InputSearch/InputSearch";
 import Nav from "../Nav/Nav";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Drawer.module.css";
@@ -15,7 +14,6 @@ function Drawer({ open, toggle }) {
       <div className={classes.content}>
         <Logo />
         <Nav />
-        <InputSearch />
       </div>
     </div>
   );

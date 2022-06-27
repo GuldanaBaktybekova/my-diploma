@@ -2,24 +2,22 @@
   display: flex;
   justify-content: center;
   align-items: center;
- 
+
   flex-direction: column;
   width: 100%;
   max-width: 96%;
-  
+
   text-align: center;
   padding: 20px;
-  font-family: Mulli,sans-serif;
+  font-family: Mulli, sans-serif;
   color: white;
- 
+
   background-color: #020202;
   font-weight: bold;
   border-top: 2px solid white;
   border-bottom: 2px solid white;
-  
 }
 .CheckoutItem input {
- 
   width: 100%;
   max-width: 600px;
   border: none;
@@ -28,12 +26,11 @@
   color: white;
   border-bottom: 2px solid white;
   padding: 15px;
-
 }
 
 .CheckoutItem label {
- width: 100%;
- max-width: 500px;
+  width: 100%;
+  max-width: 500px;
 }
 .CheckoutItem .order {
   width: 100%;
@@ -48,16 +45,11 @@
   position: relative;
   left: 0.5rem;
   border-radius: 10px;
-
-  
-
 }
 .CheckoutItem .order:hover {
-  
   color: rgb(216, 213, 213);
-
 }
-@media (max-width:630px) {
+@media (max-width: 630px) {
   .CheckoutItem .order {
     position: relative;
     left: 0.2rem;

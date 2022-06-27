@@ -1,18 +1,16 @@
 .CartLink img {
- 
- background-color: transparent;
+  background-color: transparent;
   width: 25px;
   padding: 5px;
   position: relative;
   top: 8px;
-  right: 15px;
+  right: 1rem;
 }
 .CartLink span {
   text-decoration: none;
   color: white;
   position: relative;
-  right: 33px;
+  right: 2.1rem;
   top: -16px;
   font-size: 12px;
- 
 }

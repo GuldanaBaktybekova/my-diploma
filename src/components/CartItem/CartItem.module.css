@@ -4,7 +4,7 @@
   border: 2px solid white;
   padding: 10px;
   justify-content: center;
-} 
+}
 .CartItem img {
   width: 100%;
   max-width: 250px;
@@ -17,34 +17,25 @@
   color: white;
   max-width: 300px;
   width: 100%;
- 
 }
 .CartItem .title a {
   text-decoration: none;
   margin: 15px;
   color: white;
-  ;
   font-size: 1.5rem;
   border-bottom: 1px solid white;
-
-
 }
-.CartItem .subtotal{
+.CartItem .subtotal {
   text-decoration: none;
   margin: 15px;
   color: white;
-  ;
   border-bottom: 1px solid white;
-
-
 }
-.CartItem .delete{
- margin: 10px;
- position: relative;
- right: 10px;
- top: 8px;
-
-
+.CartItem .delete {
+  margin: 10px;
+  position: relative;
+  right: 10px;
+  top: 8px;
 }
 .CartItem .quantity {
   margin: 15px;
@@ -53,10 +44,8 @@
 }
 .CartItem button {
   background-color: white;
-  ;
   color: black;
   border-radius: 5px;
   cursor: pointer;
   margin: 10px;
-  
 }

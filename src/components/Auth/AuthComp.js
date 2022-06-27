@@ -1,20 +1,20 @@
 import classes from "./AuthComp.module.css";
 function AuthComp() {
-  return ( 
+  return (
     <form className={classes.AuthComp}>
-    <label>
+      <label>
         Email:
-        <input type="email" name="email" placeholder="email"/>
-    </label>
-    <label>
+        <input type="email" name="email" placeholder="email" />
+      </label>
+      <label>
         Password:
         <input type="password" name="password" placeholder="password" />
-    </label>
+      </label>
 
-    <button>Sign in</button>
-    <button>Sign up</button>
-</form>
-   );
+      <button>Sign in</button>
+      <button>Sign up</button>
+    </form>
+  );
 }
 
 export default AuthComp;

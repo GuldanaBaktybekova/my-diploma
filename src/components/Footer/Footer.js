@@ -16,7 +16,6 @@ function Footer() {
           <div className="footerIcon">
             <FooterIcon />
           </div>
-          
         </div>
         <div className="empty"></div>
       </div>

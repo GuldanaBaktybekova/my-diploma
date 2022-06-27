@@ -20,6 +20,3 @@ function Products() {
 }
 
 export default Products;
-
-// title="Pick your type of coffee!"
-//

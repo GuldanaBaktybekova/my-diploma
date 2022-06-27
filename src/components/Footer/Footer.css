@@ -19,7 +19,7 @@
 .Footer .footerLogo {
   width: 30%;
   color: white;
-  font-family: Muli,sans-serif;
+  font-family: Muli, sans-serif;
   font-size: 17px;
   font-weight: 400;
   letter-spacing: 2.38px;
@@ -31,43 +31,38 @@
   position: relative;
   top: -10px;
   left: -8px;
-  
 }
 .Footer .text {
   width: 60%;
   text-align: left;
 }
 .Footer .text a {
- color: white;
- font-family: Muli,sans-serif;
- font-size: 17px;
- font-weight: 400;
- letter-spacing: 2.38px;
- line-height: 49px;
- text-transform: uppercase;
- white-space: nowrap;
- text-decoration: none;
- padding: 10px;
+  color: white;
+  font-family: Muli, sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 2.38px;
+  line-height: 49px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+  padding: 10px;
 }
 .Footer .text p {
   position: relative;
   bottom: -8px;
   padding: 10px;
   line-height: 20px;
-
- }
- .Footer .text a:hover {
+}
+.Footer .text a:hover {
   text-decoration: underline;
-
-
- }
- .Footer .footerIcon {
+}
+.Footer .footerIcon {
   position: relative;
   bottom: -10px;
   left: -8px;
   padding: 10px;
-
- }
+}
 .Footer .empty {
   width: 20%;
 }
@@ -81,25 +76,20 @@
     top: -20px;
     right: -25px;
     width: 0;
-    
   }
   .Footer .text a {
     position: relative;
     bottom: -25px;
     font-size: 0.8rem;
   }
-  .Footer .text  {
-   padding: 5px;
+  .Footer .text {
+    padding: 5px;
   }
-  
 }
 @media (max-width: 740px) {
-
   .Footer .footerLogo {
     font-size: 0.8rem;
     position: relative;
     top: -10px;
-    
   }
-  
 }

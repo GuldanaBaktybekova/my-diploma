@@ -13,12 +13,10 @@ export const checkout = createAsyncThunk(
   }
 );
 
-
-
 const cartSlice = createSlice({
   name: "cart",
   initialState: {
-    items: JSON.parse(localStorage.getItem('cartItems') ?? '{}'),
+    items: JSON.parse(localStorage.getItem("cartItems") ?? "{}"),
   },
   reducers: {
     add: (store, action) => {
@@ -27,15 +25,12 @@ const cartSlice = createSlice({
       } else {
         store.items[action.payload] = 1;
       }
-    
     },
     remove: (store, action) => {
       delete store.items[action.payload];
-      
     },
     increment: (store, action) => {
       store.items[action.payload]++;
-   
     },
     decrement: (store, action) => {
       if (store.items[action.payload] > 1) {
@@ -43,9 +38,7 @@ const cartSlice = createSlice({
       } else {
         delete store.items[action.payload];
       }
-     
     },
-   
   },
   extraReducers: {
     [checkout.fulfilled]: (state, action) => {
