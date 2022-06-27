@@ -8,7 +8,8 @@
   padding: 10px 0 0 0;
   font-family: Muli, sans-serif;
   position: relative;
-  left: -35px;
+  right: -5px;
+
 }
 
 @media (max-width: 620px) {
