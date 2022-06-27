@@ -1,4 +1,4 @@
-import headerImage from "../assets/lv2.jpg";
+import headerImage from "../assets/tech-with-style.jpeg";
 import Header from "../components/Header/Header";
 
 function NotFound() {
