@@ -168,13 +168,16 @@
   margin: 20px;
   object-fit: contain;
   border: 2px solid black;
+  position: relative;
+  left: 5rem;
+  top: 5rem;
 }
 .Product section {
   position: relative;
-  top: -25rem;
+  top: -22rem;
 
   left: 25%;
-  background-color: #d2d1d0;
+  background-color: transparent;
 }
 
 .Product h1 {
@@ -219,9 +222,7 @@
   border-bottom: 1px solid #bab7b1;
 }
 
-.Product section {
-  background-color: transparent;
-}
+
 /*  */
 
 .Contacts {
@@ -240,7 +241,7 @@
 }
 .Contacts h1 {
   position: relative;
-  top: -10rem;
+  top: -8rem;
   font-size: 1rem;
   border-left: 1px solid white;
 }
@@ -254,6 +255,9 @@
 .Contacts section {
   background-color: transparent;
 }
+
+
+
 
 /*  */
 
@@ -276,4 +280,33 @@
   font-size: 0.6rem;
   position: relative;
   top: -4rem;
+}
+@media (max-width: 620px) {
+  .Contacts h1 {
+   position: relative;
+   top: -6rem;
+   left: -1rem;
+  }
+  
+}
+
+@media (max-width: 700px) {
+  .Contacts h1 {
+   position: relative;
+   top: -6rem;
+   left: -1rem;
+  }
+  
+}
+@media (max-width: 830px) {
+  .Contacts p {
+    position: relative;
+  
+    left: 1rem;
+    top:  3rem;
+    background-color: #313130ce;
+    font-size: 1rem;
+   
+  }
+  
 }
