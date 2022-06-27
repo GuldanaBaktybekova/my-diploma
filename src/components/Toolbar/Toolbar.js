@@ -1,5 +1,4 @@
 import CartLink from "../CartLink/CartLink";
-import InputSearch from "../InputSearch/InputSearch";
 import Nav from "../Nav/Nav";
 // import NavIcon from "../Nav/NavIcon/NavIcon";
 import NavToggle from "../Nav/NavToggle/NavToggle";
@@ -13,8 +12,8 @@ function Toolbar({ toggleDrawer }) {
     <nav className={classes.Toolbar}>
       <div className={classes.container}>
         <div className={classes.nav1}>
-          <InputSearch />
-
+          <p> &nbsp;</p>
+       
           <Logo />
          <CartLink/>
         </div>
