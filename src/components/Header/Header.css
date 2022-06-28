@@ -169,7 +169,6 @@
 }
 
 @media (max-width: 620px) {
-
   .Products section {
     position: absolute;
 
@@ -183,8 +182,7 @@
     max-width: 50%;
   }
 }
-@media (max-width: 700px) {
-
+@media (max-width: 760px) {
   .Products section {
     position: absolute;
 
@@ -195,26 +193,24 @@
     padding: 15px;
     margin: 10px;
     width: 100%;
-    max-width: 50%;
+    max-width: 60%;
   }
 }
-@media (max-width:500px) {
-
+@media (max-width: 500px) {
   .Products section {
     position: absolute;
 
-    top: -5%;
+    top: 5%;
     left: 7%;
 
     color: white;
     padding: 15px;
     margin: 10px;
     width: 100%;
-    max-width: 50%;
+    max-width: 70%;
   }
 }
-@media (max-width:400px) {
-
+@media (max-width: 400px) {
   .Products section {
     position: absolute;
 
@@ -230,28 +226,33 @@
 }
 
 /*  */
-.Product {
+/* .Product {
   background-color: white;
-}
-.Product img {
+ 
+  height: 100%;
+  max-height: 600px;
+} */
+/* .Product img {
   width: 100%;
   max-width: 300px;
   margin: 20px;
   object-fit: contain;
-  border: 2px solid black;
-  position: relative;
+  /* border: 2px solid black; */
+  /* position: relative;
   left: 5rem;
-  top: 5rem;
-}
-.Product section {
-  position: relative;
-  top: -22rem;
-
-  left: 25%;
+  top: 1rem; */
+/* }  */
+/* .Product section {
+  position: absolute;
+  top: -1.5rem;
+  width: 100%;
+  max-width: 500px;
   background-color: transparent;
-}
+  padding-left: 350px;
+} */
 
-.Product h1 {
+
+/* .Product h1 {
   max-width: 300px;
   position: relative;
   left: 20rem;
@@ -264,9 +265,9 @@
   border-bottom: 1px solid #bab7b1;
   border-top: none;
   font-family: Muli, sans-serif;
-}
+} */
 
-.Product p {
+/* .Product p {
   max-width: 300px;
   position: relative;
   left: 20rem;
@@ -279,8 +280,8 @@
   font-family: Muli, sans-serif;
 
   color: black;
-}
-.Product .price {
+} */
+/* .Product .price {
   font-size: 1.1rem;
   letter-spacing: 0.025rem;
   line-height: 1.5rem;
@@ -291,7 +292,7 @@
   color: black;
   margin-bottom: 10px;
   border-bottom: 1px solid #bab7b1;
-}
+} */
 
 /*  */
 
