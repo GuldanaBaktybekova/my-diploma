@@ -12,39 +12,44 @@
   font-family: Mulli, sans-serif;
   color: white;
 
-  background-color: #020202;
+  background-color: white;
   font-weight: bold;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 .CheckoutItem input {
   width: 100%;
   max-width: 600px;
+  font-size: 1.4rem;
   border: none;
   outline: none;
-  background-color: #020202;
-  color: white;
-  border-bottom: 2px solid white;
+  
+  color: black;
+  border-bottom: 2px solid black;
   padding: 15px;
 }
 
 .CheckoutItem label {
+  font-size: 1.2rem;
   width: 100%;
   max-width: 500px;
+  color: black;
 }
 .CheckoutItem .order {
   width: 100%;
-  max-width: 208px;
-  padding: 2px;
+  max-width: 250px;
+  padding: 10px;
   margin-top: 15px;
+  font-size: 1rem;
+  font-weight: bold;
   background-color: #020202;
-  border: 2px solid white;
+  border: 2px solid black;
   color: white;
   cursor: pointer;
   text-align: center;
   position: relative;
   left: 0.5rem;
-  border-radius: 10px;
+  border-radius: 15px;
 }
 .CheckoutItem .order:hover {
   color: rgb(216, 213, 213);
