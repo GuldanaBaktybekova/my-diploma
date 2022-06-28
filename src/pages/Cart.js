@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import image from "../assets/galileo.jpeg";
+import image from "../assets/smegOven.jpeg";
 
 import CartDisplay from "../components/CartDisplay/CartDisplay";
 
