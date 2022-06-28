@@ -1,6 +1,14 @@
 .CartDisplay .cartItem {
   display: flex;
 }
+.CartDisplay {
+  background-color: #020202;
+  color: white; 
+  font-family: Muli,sans-serif;
+  padding: 20px 0;  
+  font-size: 1.2rem;
+ 
+}
 
 .CartDisplay .total {
   border-top: 1px solid white;
