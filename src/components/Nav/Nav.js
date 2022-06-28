@@ -1,18 +1,16 @@
 import classes from "./Nav.module.css";
 
 import NavItem from "./NavItem/NavItem";
-import { useSelector } from "react-redux";
+
 
 function Nav() {
-  const isAuthenticated = useSelector(store => store.auth.idToken !== null);
+  
   return (
     <div className={classes.Nav}>
       <ul className={classes.menu}>
         <NavItem url="/">Home</NavItem>
         <NavItem url="/products">Products</NavItem>
         <NavItem url="/contacts">Contacts</NavItem>
-        { isAuthenticated ? <NavItem url="/signout">Sign out</NavItem> : null }
-      { !isAuthenticated ? <NavItem url="/auth">Sign in</NavItem> : null }
       </ul>
     </div>
   );
