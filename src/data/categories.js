@@ -15,7 +15,7 @@ const categories = [
       "Bags that are carried over the shoulders with the help of two thick straps are called backpacks. Traditionally, backpacks have been large-sized, especially used by students to carry books, or travelers and hikers to carry food, camera or water bottles.",
   },
   {
-    categoryId: "countertop-appliances",
+    categoryId: "small-appliances",
     title: "Small appliances",
     title2: "Explore your best taste and texture",
     image: smallImage,
