@@ -8,7 +8,7 @@ export default function SignOut() {
   useEffect(() => {
     dispatch({ type: 'auth/init' });
     navigate('/');
-  }, );
+  }, [dispatch,navigate]);
 
 
 
