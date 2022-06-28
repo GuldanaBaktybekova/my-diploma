@@ -1,4 +1,32 @@
+.ProductPage {
+  font-family: Muli,sans-serif;
+}
 .ProductPage .container {
   display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 
+}
+.ProductPage .section {
+  padding: 20px;
+  width: 100%;
+  max-width: 500px;
+
+}
+.ProductPage .container h1,p{
+  border-bottom: 2px solid black;
+}
+.ProductPage .container h1 {
+  font-size: 1.8rem;
+}
+.ProductPage .container p {
+  font-size: 1.1rem;
+}
+.ProductPage .price {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.ProductPage img {
+  width: 100%;
+  max-width: 350px;
 }

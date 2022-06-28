@@ -13,14 +13,17 @@ function ProductPage() {
   return (
     <div className={classes.ProductPage}>
       <div className={classes.container}>
-        <img src={product.image} alt="productImage" />
         <div>
+          <img src={product.image} alt="productImage" />
+        </div>
+        <div className={classes.section}>
           <h1>{product.title}</h1>
-          <div className={classes.price}>Price: ${product.price}</div>
+          <p className={classes.price}>Price: ${product.price}</p>
+          <p>{product.description}</p>
+          <CartButton productId={params.productId} />
         </div>
 
-        {product.description}
-        <CartButton productId={params.productId} />
+        
       </div>
     </div>
   );
