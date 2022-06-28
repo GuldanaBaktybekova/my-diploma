@@ -1,12 +1,12 @@
 .ProductList {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin: 20px;
 }
 .search {
   position: relative;
-  left: 1.5rem;
+  left: 5rem;
 
   margin: 10px 0 10px 10px;
   padding: 5px;

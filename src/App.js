@@ -11,6 +11,7 @@ import Category from "./pages/Category";
 import Cart from "./pages/Cart";
 import Checkout from "./pages/Checkout";
 import Auth from "./pages/Auth";
+import SignOut from "./pages/SignOut";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/checkout" element={<Checkout />} />
 
           <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

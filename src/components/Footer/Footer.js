@@ -8,7 +8,7 @@ function Footer() {
       <div className="container">
         <div className="footerLogo">KitchenTech 2022</div>
         <div className="text">
-          <Link to="/contacts">Contact</Link>
+          <Link to="/contacts">Contacts</Link>
           <p>
             KitchenTech- Via Leonardo da Vinci,<br></br> 4 42016 Guastalla Italy
             <br></br> Phone +39 0522 821 1 Fax +77 7777 77 77
