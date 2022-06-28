@@ -23,5 +23,15 @@
   .NavItem a {
     border-bottom: none;
     border-right: 5px solid transparent;
+   
+
   }
 }
+@media (max-width: 780px) {
+  .NavItem a {
+
+    font-size: 0.7rem;
+
+  }
+}
+
