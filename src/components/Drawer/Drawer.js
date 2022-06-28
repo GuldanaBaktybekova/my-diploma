@@ -1,4 +1,5 @@
 import Nav from "../Nav/Nav";
+import SignOutItem from "../SignOut/SignOutItem";
 import Logo from "../ui/Logo/Logo";
 import classes from "./Drawer.module.css";
 
@@ -14,6 +15,7 @@ function Drawer({ open, toggle }) {
       <div className={classes.content}>
         <Logo />
         <Nav />
+        <SignOutItem/>
       </div>
     </div>
   );

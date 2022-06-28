@@ -26,6 +26,12 @@
   z-index: 90;
   display: none;
 }
+.Drawer .content div:first-of-type {
+  padding-left: 70px;
+}
+.Drawer .content div:last-of-type {
+  margin-left: 50px;
+}
 
 .open .backdrop {
   display: block;
