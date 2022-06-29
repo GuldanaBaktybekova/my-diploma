@@ -1,5 +1,6 @@
 .ProductPage {
   font-family: Muli,sans-serif;
+  background-color: white;
 }
 .ProductPage .container {
   display: flex;
