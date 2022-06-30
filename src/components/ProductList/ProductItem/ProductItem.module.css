@@ -44,9 +44,7 @@
   position: relative;
   top: 60px;
 }
-.ProductItem a:hover {
-  color: black;
-}
+
 .ProductItem a:last-of-type {
   border-bottom: 2px solid white;
 }
