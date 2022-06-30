@@ -21,8 +21,7 @@
   .Toolbar .nav2 {
     display: none;
   }
-  .Toolbar .nav1  div:first-of-type{
+  .Toolbar .nav1 div:first-of-type {
     display: none;
   }
-
 }
