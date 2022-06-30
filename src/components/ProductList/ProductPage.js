@@ -22,8 +22,6 @@ function ProductPage() {
           <p>{product.description}</p>
           <CartButton productId={params.productId} />
         </div>
-
-        
       </div>
     </div>
   );

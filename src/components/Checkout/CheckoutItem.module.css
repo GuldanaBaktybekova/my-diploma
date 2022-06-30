@@ -5,10 +5,9 @@
 
   flex-direction: column;
   width: 100%;
-  max-width: 96%;
 
   text-align: center;
-  padding: 20px;
+  padding: 20px 0;
   font-family: Mulli, sans-serif;
   color: white;
 
@@ -19,14 +18,14 @@
 }
 .CheckoutItem input {
   width: 100%;
-  max-width: 600px;
+  max-width: 550px;
   font-size: 1.4rem;
   border: none;
   outline: none;
-  
+
   color: black;
   border-bottom: 2px solid black;
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .CheckoutItem label {

@@ -37,16 +37,17 @@ export default function AuthComp() {
         {errorOutput}
         <h1>Login</h1>
         <label>
-       
           Email:
-          <input type="email" name="email"  placeholder="Enter Email" />
+          <input type="email" name="email" placeholder="Enter Email" />
         </label>
         <label>
           Password:
           <input type="password" name="password" placeholder="Enter Password" />
         </label>
-        <button>Sign in</button>
-        <button>Sign up</button>
+        <div>
+          <button>Sign in</button>
+          <button>Sign up</button>
+        </div>
       </form>
     </div>
   );

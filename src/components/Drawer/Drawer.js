@@ -15,7 +15,7 @@ function Drawer({ open, toggle }) {
       <div className={classes.content}>
         <Logo />
         <Nav />
-        <SignOutItem/>
+        <SignOutItem />
       </div>
     </div>
   );

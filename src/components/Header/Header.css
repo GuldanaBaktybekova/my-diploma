@@ -238,7 +238,7 @@
   margin: 20px;
   object-fit: contain;
   /* border: 2px solid black; */
-  /* position: relative;
+/* position: relative;
   left: 5rem;
   top: 1rem; */
 /* }  */
@@ -250,7 +250,6 @@
   background-color: transparent;
   padding-left: 350px;
 } */
-
 
 /* .Product h1 {
   max-width: 300px;
@@ -307,7 +306,7 @@
   transform: scale(1);
   vertical-align: middle;
   border-style: none;
-  margin: 10px;
+  margin: 10px 0;
   margin-top: 50px;
 }
 .Contacts h1 {
